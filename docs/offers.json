@@ -1,0 +1,7146 @@
+[
+  {
+    "_id": "7e8cb89a719368a5a16c36e1",
+    "from": "DXB",
+    "to": "NYC",
+    "departDate": "2026-01-12T10:35:32.836247",
+    "returnDate": "2026-01-24T10:35:32.836247",
+    "provider": "GlobeTrotter",
+    "price": 876.41,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ799",
+        "dep": "DXB",
+        "arr": "NYC",
+        "duration": 600
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "02fc568e8c3a431f45ce9366",
+    "from": "TYO",
+    "to": "SAO",
+    "departDate": "2026-04-21T10:35:32.836592",
+    "returnDate": "2026-04-24T10:35:32.836592",
+    "provider": "GlobeTrotter",
+    "price": 1681.2,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL515",
+        "dep": "TYO",
+        "arr": "SAO",
+        "duration": 900
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 9,
+      "price": 1970.36
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 313.78
+    }
+  },
+  {
+    "_id": "775bbf188d8648099f726138",
+    "from": "LON",
+    "to": "ROM",
+    "departDate": "2025-05-24T10:35:32.836704",
+    "returnDate": "2025-05-28T10:35:32.836704",
+    "provider": "AirZen",
+    "price": 1009.36,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL491",
+        "dep": "LON",
+        "arr": "ROM",
+        "duration": 420
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 110.58
+    }
+  },
+  {
+    "_id": "2731919ba6e910e5ff89c0b5",
+    "from": "LAX",
+    "to": "DXB",
+    "departDate": "2025-05-18T10:35:32.836750",
+    "returnDate": "2025-06-03T10:35:32.836750",
+    "provider": "SkyWings",
+    "price": 139.68,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK529",
+        "dep": "LAX",
+        "arr": "DXB",
+        "duration": 120
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 3,
+      "price": 170.89
+    },
+    "activity": null
+  },
+  {
+    "_id": "e96290c8149bc5420cb923d0",
+    "from": "SFO",
+    "to": "ROM",
+    "departDate": "2025-08-05T10:35:32.836795",
+    "returnDate": "2025-08-20T10:35:32.836795",
+    "provider": "JetStream",
+    "price": 198.27,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ543",
+        "dep": "SFO",
+        "arr": "ROM",
+        "duration": 360
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 3,
+      "price": 410.07
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 125.27
+    }
+  },
+  {
+    "_id": "ec9289d6714aff9949051512",
+    "from": "SYD",
+    "to": "IST",
+    "departDate": "2025-11-30T10:35:32.836843",
+    "returnDate": "2025-12-12T10:35:32.836843",
+    "provider": "AirZen",
+    "price": 1122.7,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL501",
+        "dep": "SYD",
+        "arr": "IST",
+        "duration": 360
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "4186f3fd4b3ca20ff5a63956",
+    "from": "PAR",
+    "to": "BKK",
+    "departDate": "2025-12-13T10:35:32.836880",
+    "returnDate": "2025-12-16T10:35:32.836880",
+    "provider": "FlyFast",
+    "price": 680.79,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF167",
+        "dep": "PAR",
+        "arr": "BKK",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 3,
+      "price": 1371.36
+    },
+    "activity": null
+  },
+  {
+    "_id": "da5f446d5629cdd09b0b6f14",
+    "from": "PAR",
+    "to": "BKK",
+    "departDate": "2026-02-25T10:35:32.836930",
+    "returnDate": "2026-03-15T10:35:32.836930",
+    "provider": "GlobeTrotter",
+    "price": 1284.86,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH391",
+        "dep": "PAR",
+        "arr": "BKK",
+        "duration": 840
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 123.02
+    }
+  },
+  {
+    "_id": "a3c2b931a4950357f82bc3d8",
+    "from": "IST",
+    "to": "DXB",
+    "departDate": "2025-07-02T10:35:32.836976",
+    "returnDate": "2025-07-14T10:35:32.836976",
+    "provider": "SkyWings",
+    "price": 727.1,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ281",
+        "dep": "IST",
+        "arr": "DXB",
+        "duration": 480
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 5,
+      "price": 211.03
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 273.76
+    }
+  },
+  {
+    "_id": "52e01d85068f90459e67e2b0",
+    "from": "SYD",
+    "to": "LAX",
+    "departDate": "2025-08-17T10:35:32.837021",
+    "returnDate": "2025-09-06T10:35:32.837021",
+    "provider": "GlobeTrotter",
+    "price": 191.15,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL711",
+        "dep": "SYD",
+        "arr": "LAX",
+        "duration": 420
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "430e831b63e182619d8e84e7",
+    "from": "DEL",
+    "to": "DXB",
+    "departDate": "2025-08-09T10:35:32.837057",
+    "returnDate": "2025-08-16T10:35:32.837057",
+    "provider": "SkyWings",
+    "price": 1254.98,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL930",
+        "dep": "DEL",
+        "arr": "DXB",
+        "duration": 840
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 114.79
+    }
+  },
+  {
+    "_id": "7128b4f4d37fed0be54a9f7b",
+    "from": "LAX",
+    "to": "YVR",
+    "departDate": "2026-01-07T10:35:32.837323",
+    "returnDate": "2026-01-21T10:35:32.837323",
+    "provider": "FlyFast",
+    "price": 471.27,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ250",
+        "dep": "LAX",
+        "arr": "YVR",
+        "duration": 300
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 9,
+      "price": 897.94
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 31.96
+    }
+  },
+  {
+    "_id": "4c248b8f9457b3944a68a522",
+    "from": "SFO",
+    "to": "BKK",
+    "departDate": "2025-12-07T10:35:32.837375",
+    "returnDate": "2025-12-17T10:35:32.837375",
+    "provider": "AirZen",
+    "price": 298.61,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ947",
+        "dep": "SFO",
+        "arr": "BKK",
+        "duration": 720
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 7,
+      "price": 919.06
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 282.66
+    }
+  },
+  {
+    "_id": "7d0cd37fd734fe9392581b6d",
+    "from": "DXB",
+    "to": "SAO",
+    "departDate": "2025-09-15T10:35:32.837418",
+    "returnDate": "2025-10-03T10:35:32.837418",
+    "provider": "JetStream",
+    "price": 1152.83,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF424",
+        "dep": "DXB",
+        "arr": "SAO",
+        "duration": 240
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "7c07cad745b913dd859a0b7a",
+    "from": "PAR",
+    "to": "DXB",
+    "departDate": "2026-02-18T10:35:32.837455",
+    "returnDate": "2026-02-25T10:35:32.837455",
+    "provider": "GlobeTrotter",
+    "price": 1431.28,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA303",
+        "dep": "PAR",
+        "arr": "DXB",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 4,
+      "price": 1394.11
+    },
+    "activity": null
+  },
+  {
+    "_id": "5d3ad81858632958ac3fcc61",
+    "from": "YVR",
+    "to": "JNB",
+    "departDate": "2025-06-19T10:35:32.837493",
+    "returnDate": "2025-07-09T10:35:32.837493",
+    "provider": "GlobeTrotter",
+    "price": 131.86,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA157",
+        "dep": "YVR",
+        "arr": "JNB",
+        "duration": 300
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 293.56
+    }
+  },
+  {
+    "_id": "acf357b6e918f254b892c9d1",
+    "from": "DXB",
+    "to": "BER",
+    "departDate": "2026-04-03T10:35:32.837529",
+    "returnDate": "2026-04-20T10:35:32.837529",
+    "provider": "JetStream",
+    "price": 1309.84,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL994",
+        "dep": "DXB",
+        "arr": "BER",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 358.23
+    }
+  },
+  {
+    "_id": "412445055772bd9c9149d9f6",
+    "from": "YVR",
+    "to": "MEX",
+    "departDate": "2025-07-04T10:35:32.837565",
+    "returnDate": "2025-07-18T10:35:32.837565",
+    "provider": "AirZen",
+    "price": 1341.94,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF168",
+        "dep": "YVR",
+        "arr": "MEX",
+        "duration": 420
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "3e6d2660d1b04c4845adc1c0",
+    "from": "SFO",
+    "to": "JNB",
+    "departDate": "2026-02-25T10:35:32.837599",
+    "returnDate": "2026-03-05T10:35:32.837599",
+    "provider": "FlyFast",
+    "price": 2344.18,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL144",
+        "dep": "SFO",
+        "arr": "JNB",
+        "duration": 900
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 7,
+      "price": 874.55
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 387.34
+    }
+  },
+  {
+    "_id": "b0834ace5bc60023f1a8961a",
+    "from": "LAX",
+    "to": "TYO",
+    "departDate": "2025-08-22T10:35:32.837643",
+    "returnDate": "2025-08-31T10:35:32.837643",
+    "provider": "FlyFast",
+    "price": 1170.41,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK288",
+        "dep": "LAX",
+        "arr": "TYO",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 2,
+      "price": 1916.83
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 329.82
+    }
+  },
+  {
+    "_id": "5fd913971b0878dc1d43c1ac",
+    "from": "DXB",
+    "to": "SIN",
+    "departDate": "2025-11-16T10:35:32.837684",
+    "returnDate": "2025-11-27T10:35:32.837684",
+    "provider": "FlyFast",
+    "price": 1271.57,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA175",
+        "dep": "DXB",
+        "arr": "SIN",
+        "duration": 240
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "c82f3ba7c908e5a82ab1e20a",
+    "from": "MAD",
+    "to": "YVR",
+    "departDate": "2025-10-03T10:35:32.837716",
+    "returnDate": "2025-10-14T10:35:32.837716",
+    "provider": "JetStream",
+    "price": 2327.12,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "EK407",
+        "dep": "MAD",
+        "arr": "YVR",
+        "duration": 720
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 5,
+      "price": 873.25
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 53.0
+    }
+  },
+  {
+    "_id": "81c5db715d07c9343b9d5a37",
+    "from": "LAX",
+    "to": "LON",
+    "departDate": "2025-11-03T10:35:32.837757",
+    "returnDate": "2025-11-20T10:35:32.837757",
+    "provider": "FlyFast",
+    "price": 1446.69,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA161",
+        "dep": "LAX",
+        "arr": "LON",
+        "duration": 840
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 302.1
+    }
+  },
+  {
+    "_id": "26f82aa8aa138aed0985491e",
+    "from": "SYD",
+    "to": "SIN",
+    "departDate": "2026-02-13T10:35:32.837795",
+    "returnDate": "2026-02-24T10:35:32.837795",
+    "provider": "SkyWings",
+    "price": 1194.46,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ682",
+        "dep": "SYD",
+        "arr": "SIN",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 76.68
+    }
+  },
+  {
+    "_id": "1596e13fc9b6bf829c85faf5",
+    "from": "DEL",
+    "to": "SAO",
+    "departDate": "2026-02-06T10:35:32.837833",
+    "returnDate": "2026-02-25T10:35:32.837833",
+    "provider": "FlyFast",
+    "price": 1124.73,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH584",
+        "dep": "DEL",
+        "arr": "SAO",
+        "duration": 720
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 5,
+      "price": 1579.13
+    },
+    "activity": null
+  },
+  {
+    "_id": "ccbb6f78ddf102abde31377b",
+    "from": "SFO",
+    "to": "DXB",
+    "departDate": "2026-04-24T10:35:32.837870",
+    "returnDate": "2026-05-08T10:35:32.837870",
+    "provider": "FlyFast",
+    "price": 2036.58,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL869",
+        "dep": "SFO",
+        "arr": "DXB",
+        "duration": 480
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 11,
+      "price": 607.21
+    },
+    "activity": null
+  },
+  {
+    "_id": "3ddb38c79cdb8942f9a57c0b",
+    "from": "TYO",
+    "to": "YVR",
+    "departDate": "2025-11-15T10:35:32.837908",
+    "returnDate": "2025-11-19T10:35:32.837908",
+    "provider": "SkyWings",
+    "price": 1548.09,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL336",
+        "dep": "TYO",
+        "arr": "YVR",
+        "duration": 180
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 285.68
+    }
+  },
+  {
+    "_id": "28cdd68950430f025da75a20",
+    "from": "SIN",
+    "to": "TYO",
+    "departDate": "2025-12-23T10:35:32.837945",
+    "returnDate": "2025-12-26T10:35:32.837945",
+    "provider": "AirZen",
+    "price": 364.19,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL184",
+        "dep": "SIN",
+        "arr": "TYO",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 66.23
+    }
+  },
+  {
+    "_id": "ca7f31555af65d2fbd237df3",
+    "from": "BKK",
+    "to": "SYD",
+    "departDate": "2025-05-03T10:35:32.837981",
+    "returnDate": "2025-05-06T10:35:32.837981",
+    "provider": "JetStream",
+    "price": 164.79,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK257",
+        "dep": "BKK",
+        "arr": "SYD",
+        "duration": 840
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 9,
+      "price": 1161.98
+    },
+    "activity": null
+  },
+  {
+    "_id": "9e8d76a8844e98e6a22eadd7",
+    "from": "IST",
+    "to": "DEL",
+    "departDate": "2026-01-03T10:35:32.838018",
+    "returnDate": "2026-01-17T10:35:32.838018",
+    "provider": "SkyWings",
+    "price": 466.09,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA730",
+        "dep": "IST",
+        "arr": "DEL",
+        "duration": 120
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 5,
+      "price": 1587.11
+    },
+    "activity": null
+  },
+  {
+    "_id": "f288bb7b70f390e45919caf9",
+    "from": "LON",
+    "to": "YVR",
+    "departDate": "2025-12-26T10:35:32.838057",
+    "returnDate": "2026-01-13T10:35:32.838057",
+    "provider": "GlobeTrotter",
+    "price": 363.37,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA792",
+        "dep": "LON",
+        "arr": "YVR",
+        "duration": 240
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 2,
+      "price": 827.35
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 254.59
+    }
+  },
+  {
+    "_id": "242712ccbcab3ce47f3efd45",
+    "from": "YVR",
+    "to": "MAD",
+    "departDate": "2026-01-30T10:35:32.838097",
+    "returnDate": "2026-02-18T10:35:32.838097",
+    "provider": "FlyFast",
+    "price": 1867.42,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH665",
+        "dep": "YVR",
+        "arr": "MAD",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "e3335394d9f7671a6952da66",
+    "from": "MAD",
+    "to": "BER",
+    "departDate": "2025-07-31T10:35:32.838132",
+    "returnDate": "2025-08-03T10:35:32.838132",
+    "provider": "FlyFast",
+    "price": 568.97,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA974",
+        "dep": "MAD",
+        "arr": "BER",
+        "duration": 60
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 112.21
+    }
+  },
+  {
+    "_id": "0a45ad6d6fc0e9551e898059",
+    "from": "SIN",
+    "to": "SFO",
+    "departDate": "2025-07-25T10:35:32.838168",
+    "returnDate": "2025-08-09T10:35:32.838168",
+    "provider": "JetStream",
+    "price": 810.67,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA693",
+        "dep": "SIN",
+        "arr": "SFO",
+        "duration": 540
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 242.27
+    }
+  },
+  {
+    "_id": "fbb0d938cf052cce9422f567",
+    "from": "SFO",
+    "to": "MAD",
+    "departDate": "2026-02-03T10:35:32.838204",
+    "returnDate": "2026-02-08T10:35:32.838204",
+    "provider": "AirZen",
+    "price": 787.86,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ214",
+        "dep": "SFO",
+        "arr": "MAD",
+        "duration": 840
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 5,
+      "price": 531.58
+    },
+    "activity": null
+  },
+  {
+    "_id": "ea82d670ba843fa7ad5823c5",
+    "from": "YVR",
+    "to": "BER",
+    "departDate": "2025-09-21T10:35:32.838242",
+    "returnDate": "2025-10-07T10:35:32.838242",
+    "provider": "JetStream",
+    "price": 214.37,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF750",
+        "dep": "YVR",
+        "arr": "BER",
+        "duration": 840
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "c361c4ced02f111127d0a34d",
+    "from": "SAO",
+    "to": "LAX",
+    "departDate": "2026-01-20T10:35:32.838276",
+    "returnDate": "2026-02-05T10:35:32.838276",
+    "provider": "SkyWings",
+    "price": 1713.44,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL678",
+        "dep": "SAO",
+        "arr": "LAX",
+        "duration": 300
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "4b793d79c36636fd5ae926ab",
+    "from": "AMS",
+    "to": "PAR",
+    "departDate": "2026-04-07T10:35:32.838313",
+    "returnDate": "2026-04-22T10:35:32.838313",
+    "provider": "JetStream",
+    "price": 1228.17,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA899",
+        "dep": "AMS",
+        "arr": "PAR",
+        "duration": 600
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 130.32
+    }
+  },
+  {
+    "_id": "e1945ed4d29c0e361f609d2c",
+    "from": "SAO",
+    "to": "LAX",
+    "departDate": "2025-09-29T10:35:32.838350",
+    "returnDate": "2025-10-15T10:35:32.838350",
+    "provider": "AirZen",
+    "price": 177.81,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF809",
+        "dep": "SAO",
+        "arr": "LAX",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 7,
+      "price": 1641.14
+    },
+    "activity": null
+  },
+  {
+    "_id": "0315b4f70bc55b4b9a68bb6c",
+    "from": "IST",
+    "to": "AMS",
+    "departDate": "2026-01-18T10:35:32.838387",
+    "returnDate": "2026-01-31T10:35:32.838387",
+    "provider": "JetStream",
+    "price": 995.1,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL125",
+        "dep": "IST",
+        "arr": "AMS",
+        "duration": 300
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "12c80b733b3043da1b6df4b6",
+    "from": "DXB",
+    "to": "MEX",
+    "departDate": "2025-11-14T10:35:32.838421",
+    "returnDate": "2025-11-23T10:35:32.838421",
+    "provider": "JetStream",
+    "price": 413.56,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL963",
+        "dep": "DXB",
+        "arr": "MEX",
+        "duration": 120
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 7,
+      "price": 416.37
+    },
+    "activity": null
+  },
+  {
+    "_id": "6a5a60b76c950a526b7033aa",
+    "from": "YVR",
+    "to": "AMS",
+    "departDate": "2026-04-17T10:35:32.838458",
+    "returnDate": "2026-05-04T10:35:32.838458",
+    "provider": "AirZen",
+    "price": 2402.22,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH139",
+        "dep": "YVR",
+        "arr": "AMS",
+        "duration": 600
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "1e28f6fbc56b9656291e2a56",
+    "from": "AMS",
+    "to": "BER",
+    "departDate": "2025-06-16T10:35:32.838493",
+    "returnDate": "2025-06-30T10:35:32.838493",
+    "provider": "AirZen",
+    "price": 359.01,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ934",
+        "dep": "AMS",
+        "arr": "BER",
+        "duration": 600
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 344.59
+    }
+  },
+  {
+    "_id": "73b334283c5e9ea7e198f5f8",
+    "from": "SFO",
+    "to": "YVR",
+    "departDate": "2025-05-17T10:35:32.838530",
+    "returnDate": "2025-05-26T10:35:32.838530",
+    "provider": "GlobeTrotter",
+    "price": 2188.77,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK302",
+        "dep": "SFO",
+        "arr": "YVR",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 9,
+      "price": 1560.3
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 367.72
+    }
+  },
+  {
+    "_id": "149ba8c2d3f49a0b96bbad12",
+    "from": "LAX",
+    "to": "LON",
+    "departDate": "2025-07-15T10:35:32.838571",
+    "returnDate": "2025-07-18T10:35:32.838571",
+    "provider": "AirZen",
+    "price": 913.44,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH131",
+        "dep": "LAX",
+        "arr": "LON",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 4,
+      "price": 1153.5
+    },
+    "activity": null
+  },
+  {
+    "_id": "82aa31739f58106209e0e63c",
+    "from": "MAD",
+    "to": "IST",
+    "departDate": "2025-06-18T10:35:32.838685",
+    "returnDate": "2025-07-06T10:35:32.838685",
+    "provider": "SkyWings",
+    "price": 1456.72,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF670",
+        "dep": "MAD",
+        "arr": "IST",
+        "duration": 780
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 176.95
+    }
+  },
+  {
+    "_id": "434766cbe9852ad6f00e920a",
+    "from": "NYC",
+    "to": "TYO",
+    "departDate": "2025-06-14T10:35:32.838728",
+    "returnDate": "2025-06-29T10:35:32.838728",
+    "provider": "AirZen",
+    "price": 394.58,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF447",
+        "dep": "NYC",
+        "arr": "TYO",
+        "duration": 600
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 46.23
+    }
+  },
+  {
+    "_id": "796834275ed5505008c1f688",
+    "from": "SYD",
+    "to": "BKK",
+    "departDate": "2026-01-29T10:35:32.838778",
+    "returnDate": "2026-02-07T10:35:32.838778",
+    "provider": "GlobeTrotter",
+    "price": 1184.57,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL653",
+        "dep": "SYD",
+        "arr": "BKK",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 86.99
+    }
+  },
+  {
+    "_id": "cf070d08ccb47dc6ddc95613",
+    "from": "LAX",
+    "to": "DXB",
+    "departDate": "2025-09-22T10:35:32.838814",
+    "returnDate": "2025-10-05T10:35:32.838814",
+    "provider": "AirZen",
+    "price": 1234.09,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ758",
+        "dep": "LAX",
+        "arr": "DXB",
+        "duration": 900
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "90626d419567ecd956f4da4c",
+    "from": "SFO",
+    "to": "ROM",
+    "departDate": "2025-12-18T10:35:32.838849",
+    "returnDate": "2025-12-22T10:35:32.838849",
+    "provider": "FlyFast",
+    "price": 770.3,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "EK270",
+        "dep": "SFO",
+        "arr": "ROM",
+        "duration": 360
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 56.48
+    }
+  },
+  {
+    "_id": "f11ee09bd537beb5da5b743a",
+    "from": "JNB",
+    "to": "DXB",
+    "departDate": "2025-11-13T10:35:32.838885",
+    "returnDate": "2025-12-01T10:35:32.838885",
+    "provider": "GlobeTrotter",
+    "price": 132.77,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL758",
+        "dep": "JNB",
+        "arr": "DXB",
+        "duration": 360
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 2,
+      "price": 1402.32
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 147.32
+    }
+  },
+  {
+    "_id": "144a382ee2fee6d57e6522d5",
+    "from": "SAO",
+    "to": "AMS",
+    "departDate": "2025-05-17T10:35:32.838924",
+    "returnDate": "2025-05-24T10:35:32.838924",
+    "provider": "SkyWings",
+    "price": 1622.98,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF240",
+        "dep": "SAO",
+        "arr": "AMS",
+        "duration": 60
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 2,
+      "price": 1457.9
+    },
+    "activity": null
+  },
+  {
+    "_id": "9949b65e58dda0436c0d1c0d",
+    "from": "SYD",
+    "to": "SFO",
+    "departDate": "2025-10-31T10:35:32.838960",
+    "returnDate": "2025-11-13T10:35:32.838960",
+    "provider": "JetStream",
+    "price": 532.46,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA116",
+        "dep": "SYD",
+        "arr": "SFO",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "f4066b8127a3753f55681390",
+    "from": "NYC",
+    "to": "MAD",
+    "departDate": "2025-10-20T10:35:32.838994",
+    "returnDate": "2025-11-01T10:35:32.838994",
+    "provider": "FlyFast",
+    "price": 303.8,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL360",
+        "dep": "NYC",
+        "arr": "MAD",
+        "duration": 240
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 358.16
+    }
+  },
+  {
+    "_id": "0dc233880d7ee616e9be28ea",
+    "from": "SFO",
+    "to": "PAR",
+    "departDate": "2025-09-06T10:35:32.839028",
+    "returnDate": "2025-09-14T10:35:32.839028",
+    "provider": "GlobeTrotter",
+    "price": 1460.39,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL583",
+        "dep": "SFO",
+        "arr": "PAR",
+        "duration": 660
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 7,
+      "price": 304.24
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 132.49
+    }
+  },
+  {
+    "_id": "164054da2f2b469a04148c37",
+    "from": "SIN",
+    "to": "SAO",
+    "departDate": "2026-01-14T10:35:32.839068",
+    "returnDate": "2026-01-23T10:35:32.839068",
+    "provider": "AirZen",
+    "price": 1272.68,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF400",
+        "dep": "SIN",
+        "arr": "SAO",
+        "duration": 120
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "4d09652c7689a39e3fd43e2a",
+    "from": "AMS",
+    "to": "SFO",
+    "departDate": "2025-05-14T10:35:32.839101",
+    "returnDate": "2025-05-30T10:35:32.839101",
+    "provider": "FlyFast",
+    "price": 694.74,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ327",
+        "dep": "AMS",
+        "arr": "SFO",
+        "duration": 480
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 6,
+      "price": 792.11
+    },
+    "activity": null
+  },
+  {
+    "_id": "a491f68f498bd0abe2a657bc",
+    "from": "SFO",
+    "to": "NYC",
+    "departDate": "2026-03-02T10:35:32.839138",
+    "returnDate": "2026-03-13T10:35:32.839138",
+    "provider": "FlyFast",
+    "price": 1142.97,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK270",
+        "dep": "SFO",
+        "arr": "NYC",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 329.28
+    }
+  },
+  {
+    "_id": "d4fa9c6fc9a5c10c2d731739",
+    "from": "NYC",
+    "to": "BKK",
+    "departDate": "2025-11-28T10:35:32.839178",
+    "returnDate": "2025-12-09T10:35:32.839178",
+    "provider": "JetStream",
+    "price": 2312.27,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ544",
+        "dep": "NYC",
+        "arr": "BKK",
+        "duration": 240
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 11,
+      "price": 584.26
+    },
+    "activity": null
+  },
+  {
+    "_id": "ed62a8ef4fa8a6deb3440b87",
+    "from": "MAD",
+    "to": "NYC",
+    "departDate": "2026-01-21T10:35:32.839216",
+    "returnDate": "2026-02-10T10:35:32.839216",
+    "provider": "FlyFast",
+    "price": 800.62,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ562",
+        "dep": "MAD",
+        "arr": "NYC",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 320.09
+    }
+  },
+  {
+    "_id": "e89da7efb4600d2b0b85962b",
+    "from": "LON",
+    "to": "TYO",
+    "departDate": "2025-10-31T10:35:32.839251",
+    "returnDate": "2025-11-13T10:35:32.839251",
+    "provider": "SkyWings",
+    "price": 719.52,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "EK827",
+        "dep": "LON",
+        "arr": "TYO",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "4a190668d8ddf136ab164f84",
+    "from": "ROM",
+    "to": "LAX",
+    "departDate": "2025-11-06T10:35:32.839285",
+    "returnDate": "2025-11-11T10:35:32.839285",
+    "provider": "JetStream",
+    "price": 2028.7,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH555",
+        "dep": "ROM",
+        "arr": "LAX",
+        "duration": 840
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "1afd2000cac5aba99fbe8960",
+    "from": "LAX",
+    "to": "SAO",
+    "departDate": "2026-01-31T10:35:32.839318",
+    "returnDate": "2026-02-14T10:35:32.839318",
+    "provider": "FlyFast",
+    "price": 2397.19,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK552",
+        "dep": "LAX",
+        "arr": "SAO",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 4,
+      "price": 329.61
+    },
+    "activity": null
+  },
+  {
+    "_id": "1ae898e4e06d3a203dae71ab",
+    "from": "MAD",
+    "to": "ROM",
+    "departDate": "2025-11-09T10:35:32.839355",
+    "returnDate": "2025-11-26T10:35:32.839355",
+    "provider": "JetStream",
+    "price": 679.88,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ949",
+        "dep": "MAD",
+        "arr": "ROM",
+        "duration": 780
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 149.8
+    }
+  },
+  {
+    "_id": "557e520f3149a5e24d71d901",
+    "from": "ROM",
+    "to": "YVR",
+    "departDate": "2025-09-27T10:35:32.839391",
+    "returnDate": "2025-10-17T10:35:32.839391",
+    "provider": "AirZen",
+    "price": 1286.71,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH262",
+        "dep": "ROM",
+        "arr": "YVR",
+        "duration": 120
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 2,
+      "price": 1430.38
+    },
+    "activity": null
+  },
+  {
+    "_id": "8a06643a3a5183ce2f0e1edf",
+    "from": "AMS",
+    "to": "PAR",
+    "departDate": "2025-07-11T10:35:32.839430",
+    "returnDate": "2025-07-18T10:35:32.839430",
+    "provider": "JetStream",
+    "price": 613.38,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH622",
+        "dep": "AMS",
+        "arr": "PAR",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 12,
+      "price": 1843.45
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 395.22
+    }
+  },
+  {
+    "_id": "c050858fd9ef5eea51275005",
+    "from": "SIN",
+    "to": "BKK",
+    "departDate": "2025-06-23T10:35:32.839469",
+    "returnDate": "2025-06-29T10:35:32.839469",
+    "provider": "GlobeTrotter",
+    "price": 1265.48,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA951",
+        "dep": "SIN",
+        "arr": "BKK",
+        "duration": 660
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 10,
+      "price": 1508.31
+    },
+    "activity": null
+  },
+  {
+    "_id": "35f8d6e4e40ff4960ef8f2e5",
+    "from": "SFO",
+    "to": "NYC",
+    "departDate": "2026-03-29T10:35:32.839508",
+    "returnDate": "2026-04-03T10:35:32.839508",
+    "provider": "FlyFast",
+    "price": 259.89,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF298",
+        "dep": "SFO",
+        "arr": "NYC",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "a8ef616a2cb1b3b4fc2d181e",
+    "from": "BER",
+    "to": "MAD",
+    "departDate": "2026-01-29T10:35:32.839541",
+    "returnDate": "2026-02-11T10:35:32.839541",
+    "provider": "SkyWings",
+    "price": 950.87,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL300",
+        "dep": "BER",
+        "arr": "MAD",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 137.54
+    }
+  },
+  {
+    "_id": "15f1914d74a86cb82c6fe642",
+    "from": "IST",
+    "to": "AMS",
+    "departDate": "2025-10-21T10:35:32.839579",
+    "returnDate": "2025-10-25T10:35:32.839579",
+    "provider": "JetStream",
+    "price": 2413.17,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH937",
+        "dep": "IST",
+        "arr": "AMS",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 10,
+      "price": 176.12
+    },
+    "activity": null
+  },
+  {
+    "_id": "b93812bacd8ac4ebbec1c6d3",
+    "from": "IST",
+    "to": "DXB",
+    "departDate": "2025-08-13T10:35:32.839615",
+    "returnDate": "2025-08-25T10:35:32.839615",
+    "provider": "GlobeTrotter",
+    "price": 2195.54,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK675",
+        "dep": "IST",
+        "arr": "DXB",
+        "duration": 180
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "259e8c6b7b883d70ec1058e3",
+    "from": "BER",
+    "to": "MAD",
+    "departDate": "2026-01-12T10:35:32.839648",
+    "returnDate": "2026-01-21T10:35:32.839648",
+    "provider": "GlobeTrotter",
+    "price": 2286.65,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "EK507",
+        "dep": "BER",
+        "arr": "MAD",
+        "duration": 900
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 12,
+      "price": 335.49
+    },
+    "activity": null
+  },
+  {
+    "_id": "f53f190c5b3211f37a2780b0",
+    "from": "NYC",
+    "to": "ROM",
+    "departDate": "2025-11-06T10:35:32.839683",
+    "returnDate": "2025-11-15T10:35:32.839683",
+    "provider": "GlobeTrotter",
+    "price": 2118.42,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ610",
+        "dep": "NYC",
+        "arr": "ROM",
+        "duration": 840
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 10,
+      "price": 691.15
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 314.52
+    }
+  },
+  {
+    "_id": "5ba54b7308e9c1ab0cc1ff46",
+    "from": "AMS",
+    "to": "IST",
+    "departDate": "2025-07-16T10:35:32.839724",
+    "returnDate": "2025-07-22T10:35:32.839724",
+    "provider": "JetStream",
+    "price": 1606.71,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH160",
+        "dep": "AMS",
+        "arr": "IST",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 7,
+      "price": 722.83
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 201.94
+    }
+  },
+  {
+    "_id": "c56823fcce069b86c439b85a",
+    "from": "JNB",
+    "to": "SYD",
+    "departDate": "2025-09-10T10:35:32.839763",
+    "returnDate": "2025-09-22T10:35:32.839763",
+    "provider": "SkyWings",
+    "price": 2479.36,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ881",
+        "dep": "JNB",
+        "arr": "SYD",
+        "duration": 60
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 374.0
+    }
+  },
+  {
+    "_id": "05ba8ec30fef5edb3c19d230",
+    "from": "DXB",
+    "to": "BER",
+    "departDate": "2026-01-17T10:35:32.839802",
+    "returnDate": "2026-01-23T10:35:32.839802",
+    "provider": "AirZen",
+    "price": 2482.98,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "EK960",
+        "dep": "DXB",
+        "arr": "BER",
+        "duration": 300
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 4,
+      "price": 1393.16
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 144.34
+    }
+  },
+  {
+    "_id": "45aa909e75a3baf5a56b4122",
+    "from": "AMS",
+    "to": "TYO",
+    "departDate": "2026-01-03T10:35:32.839841",
+    "returnDate": "2026-01-07T10:35:32.839841",
+    "provider": "FlyFast",
+    "price": 842.9,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK911",
+        "dep": "AMS",
+        "arr": "TYO",
+        "duration": 60
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 392.17
+    }
+  },
+  {
+    "_id": "65dce7967847eeba890e6e65",
+    "from": "ROM",
+    "to": "MAD",
+    "departDate": "2025-12-06T10:35:32.839876",
+    "returnDate": "2025-12-10T10:35:32.839876",
+    "provider": "GlobeTrotter",
+    "price": 1387.12,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "EK123",
+        "dep": "ROM",
+        "arr": "MAD",
+        "duration": 60
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 10,
+      "price": 507.27
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 158.22
+    }
+  },
+  {
+    "_id": "48fc8eb3d37ba28604a39630",
+    "from": "LAX",
+    "to": "SAO",
+    "departDate": "2026-03-03T10:35:32.839915",
+    "returnDate": "2026-03-07T10:35:32.839915",
+    "provider": "FlyFast",
+    "price": 1083.14,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF486",
+        "dep": "LAX",
+        "arr": "SAO",
+        "duration": 240
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 4,
+      "price": 1911.07
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 54.79
+    }
+  },
+  {
+    "_id": "426afb31523598fb39c7cccc",
+    "from": "MAD",
+    "to": "SYD",
+    "departDate": "2025-09-28T10:35:32.839955",
+    "returnDate": "2025-10-01T10:35:32.839955",
+    "provider": "JetStream",
+    "price": 261.88,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH618",
+        "dep": "MAD",
+        "arr": "SYD",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 12,
+      "price": 1841.87
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 286.9
+    }
+  },
+  {
+    "_id": "739c5a428ee13421eea4ae3f",
+    "from": "LON",
+    "to": "SYD",
+    "departDate": "2025-05-08T10:35:32.839994",
+    "returnDate": "2025-05-27T10:35:32.839994",
+    "provider": "AirZen",
+    "price": 1364.48,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF550",
+        "dep": "LON",
+        "arr": "SYD",
+        "duration": 60
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 12,
+      "price": 1592.61
+    },
+    "activity": null
+  },
+  {
+    "_id": "0bced68e3dcd1dab48184994",
+    "from": "YVR",
+    "to": "AMS",
+    "departDate": "2025-06-14T10:35:32.840030",
+    "returnDate": "2025-06-26T10:35:32.840030",
+    "provider": "GlobeTrotter",
+    "price": 816.67,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH462",
+        "dep": "YVR",
+        "arr": "AMS",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 2,
+      "price": 282.44
+    },
+    "activity": null
+  },
+  {
+    "_id": "1a3520b7c92808b041f29661",
+    "from": "ROM",
+    "to": "SFO",
+    "departDate": "2025-12-16T10:35:32.840066",
+    "returnDate": "2025-12-20T10:35:32.840066",
+    "provider": "GlobeTrotter",
+    "price": 1390.0,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ510",
+        "dep": "ROM",
+        "arr": "SFO",
+        "duration": 600
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 372.78
+    }
+  },
+  {
+    "_id": "9d344f18b61f32f812bb950e",
+    "from": "TYO",
+    "to": "YVR",
+    "departDate": "2025-09-30T10:35:32.840102",
+    "returnDate": "2025-10-10T10:35:32.840102",
+    "provider": "JetStream",
+    "price": 2022.67,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ576",
+        "dep": "TYO",
+        "arr": "YVR",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 3,
+      "price": 533.32
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 134.76
+    }
+  },
+  {
+    "_id": "cdcfb5cffc8e18bf7b10ab56",
+    "from": "BKK",
+    "to": "IST",
+    "departDate": "2026-02-11T10:35:32.840142",
+    "returnDate": "2026-02-22T10:35:32.840142",
+    "provider": "AirZen",
+    "price": 1702.29,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA170",
+        "dep": "BKK",
+        "arr": "IST",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 105.89
+    }
+  },
+  {
+    "_id": "c93d3fcb411b107e43860ea2",
+    "from": "LON",
+    "to": "YVR",
+    "departDate": "2025-06-24T10:35:32.840178",
+    "returnDate": "2025-07-04T10:35:32.840178",
+    "provider": "FlyFast",
+    "price": 1597.54,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ878",
+        "dep": "LON",
+        "arr": "YVR",
+        "duration": 120
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 4,
+      "price": 649.57
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 54.16
+    }
+  },
+  {
+    "_id": "4d349d17a02b5fe311b7cc57",
+    "from": "DXB",
+    "to": "YVR",
+    "departDate": "2025-10-10T10:35:32.840216",
+    "returnDate": "2025-10-28T10:35:32.840216",
+    "provider": "SkyWings",
+    "price": 235.84,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA337",
+        "dep": "DXB",
+        "arr": "YVR",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 2,
+      "price": 1048.97
+    },
+    "activity": null
+  },
+  {
+    "_id": "f8947661755b82d3631a79fa",
+    "from": "JNB",
+    "to": "MAD",
+    "departDate": "2025-10-14T10:35:32.840252",
+    "returnDate": "2025-10-30T10:35:32.840252",
+    "provider": "GlobeTrotter",
+    "price": 2425.77,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF133",
+        "dep": "JNB",
+        "arr": "MAD",
+        "duration": 480
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 8,
+      "price": 1005.57
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 280.0
+    }
+  },
+  {
+    "_id": "44240f32467d35f68373b80f",
+    "from": "MAD",
+    "to": "BKK",
+    "departDate": "2025-11-16T10:35:32.840292",
+    "returnDate": "2025-11-26T10:35:32.840292",
+    "provider": "GlobeTrotter",
+    "price": 774.26,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL805",
+        "dep": "MAD",
+        "arr": "BKK",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "1ccbe259a77f4f8ffe4c9890",
+    "from": "JNB",
+    "to": "BKK",
+    "departDate": "2025-11-20T10:35:32.840324",
+    "returnDate": "2025-12-03T10:35:32.840324",
+    "provider": "FlyFast",
+    "price": 1992.98,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL348",
+        "dep": "JNB",
+        "arr": "BKK",
+        "duration": 720
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 8,
+      "price": 1921.26
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 41.46
+    }
+  },
+  {
+    "_id": "d39eb8d8291beee55b5ffbdc",
+    "from": "AMS",
+    "to": "IST",
+    "departDate": "2025-11-10T10:35:32.840363",
+    "returnDate": "2025-11-15T10:35:32.840363",
+    "provider": "AirZen",
+    "price": 549.77,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH765",
+        "dep": "AMS",
+        "arr": "IST",
+        "duration": 840
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "ba467409b41428aa92d54848",
+    "from": "SFO",
+    "to": "DEL",
+    "departDate": "2026-01-31T10:35:32.840395",
+    "returnDate": "2026-02-14T10:35:32.840395",
+    "provider": "GlobeTrotter",
+    "price": 1882.67,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ756",
+        "dep": "SFO",
+        "arr": "DEL",
+        "duration": 120
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "997f5bdaa998fc717616d568",
+    "from": "DEL",
+    "to": "ROM",
+    "departDate": "2025-11-26T10:35:32.840430",
+    "returnDate": "2025-12-04T10:35:32.840430",
+    "provider": "GlobeTrotter",
+    "price": 350.37,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH752",
+        "dep": "DEL",
+        "arr": "ROM",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 10,
+      "price": 1048.93
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 219.14
+    }
+  },
+  {
+    "_id": "ffb29027fd96e90cad11c3f4",
+    "from": "DEL",
+    "to": "JNB",
+    "departDate": "2026-04-28T10:35:32.840469",
+    "returnDate": "2026-05-09T10:35:32.840469",
+    "provider": "FlyFast",
+    "price": 1899.29,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "EK334",
+        "dep": "DEL",
+        "arr": "JNB",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 11,
+      "price": 249.79
+    },
+    "activity": null
+  },
+  {
+    "_id": "4bd2209c9fd705d885a61bdc",
+    "from": "MEX",
+    "to": "BKK",
+    "departDate": "2025-06-20T10:35:32.840506",
+    "returnDate": "2025-07-07T10:35:32.840506",
+    "provider": "JetStream",
+    "price": 1996.29,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF161",
+        "dep": "MEX",
+        "arr": "BKK",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 4,
+      "price": 1315.93
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 44.1
+    }
+  },
+  {
+    "_id": "62b8cca4f76a5efc6bd11c10",
+    "from": "NYC",
+    "to": "ROM",
+    "departDate": "2025-05-22T10:35:32.840545",
+    "returnDate": "2025-06-04T10:35:32.840545",
+    "provider": "FlyFast",
+    "price": 1227.1,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF570",
+        "dep": "NYC",
+        "arr": "ROM",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "739f13b2c645498bc9c9343f",
+    "from": "SIN",
+    "to": "JNB",
+    "departDate": "2026-01-07T10:35:32.840577",
+    "returnDate": "2026-01-20T10:35:32.840577",
+    "provider": "AirZen",
+    "price": 1470.27,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA823",
+        "dep": "SIN",
+        "arr": "JNB",
+        "duration": 540
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "bea4f3d2178ef34d78e14d45",
+    "from": "SAO",
+    "to": "SIN",
+    "departDate": "2026-01-05T10:35:32.840608",
+    "returnDate": "2026-01-20T10:35:32.840608",
+    "provider": "GlobeTrotter",
+    "price": 945.62,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH226",
+        "dep": "SAO",
+        "arr": "SIN",
+        "duration": 180
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 207.37
+    }
+  },
+  {
+    "_id": "4f49251aa646839de8aeb6da",
+    "from": "LON",
+    "to": "ROM",
+    "departDate": "2026-02-14T10:35:32.840643",
+    "returnDate": "2026-02-22T10:35:32.840643",
+    "provider": "AirZen",
+    "price": 1280.33,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA807",
+        "dep": "LON",
+        "arr": "ROM",
+        "duration": 840
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "9ecc40c62ceeac6a710bfa23",
+    "from": "AMS",
+    "to": "YVR",
+    "departDate": "2025-05-05T10:35:32.840679",
+    "returnDate": "2025-05-17T10:35:32.840679",
+    "provider": "AirZen",
+    "price": 467.63,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL548",
+        "dep": "AMS",
+        "arr": "YVR",
+        "duration": 180
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "f6fa44a4d80be2071bf99b32",
+    "from": "BKK",
+    "to": "ROM",
+    "departDate": "2025-11-14T10:35:32.840711",
+    "returnDate": "2025-11-20T10:35:32.840711",
+    "provider": "AirZen",
+    "price": 407.02,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ744",
+        "dep": "BKK",
+        "arr": "ROM",
+        "duration": 900
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 49.4
+    }
+  },
+  {
+    "_id": "14d8301082b9d089665ad562",
+    "from": "YVR",
+    "to": "BKK",
+    "departDate": "2026-04-07T10:35:32.840750",
+    "returnDate": "2026-04-24T10:35:32.840750",
+    "provider": "SkyWings",
+    "price": 1524.01,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ653",
+        "dep": "YVR",
+        "arr": "BKK",
+        "duration": 840
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 12,
+      "price": 1993.45
+    },
+    "activity": null
+  },
+  {
+    "_id": "7979573913476776152f70f4",
+    "from": "DEL",
+    "to": "PAR",
+    "departDate": "2025-07-20T10:35:32.840786",
+    "returnDate": "2025-08-08T10:35:32.840786",
+    "provider": "JetStream",
+    "price": 1853.69,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ744",
+        "dep": "DEL",
+        "arr": "PAR",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 2,
+      "price": 490.5
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 211.2
+    }
+  },
+  {
+    "_id": "cf5c8fd2534f621af628641a",
+    "from": "LAX",
+    "to": "LON",
+    "departDate": "2025-05-27T10:35:32.840824",
+    "returnDate": "2025-06-04T10:35:32.840824",
+    "provider": "GlobeTrotter",
+    "price": 464.29,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF255",
+        "dep": "LAX",
+        "arr": "LON",
+        "duration": 540
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "089800c592e1baa461ee86ed",
+    "from": "NYC",
+    "to": "MEX",
+    "departDate": "2026-01-30T10:35:32.840856",
+    "returnDate": "2026-02-03T10:35:32.840856",
+    "provider": "SkyWings",
+    "price": 486.38,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH339",
+        "dep": "NYC",
+        "arr": "MEX",
+        "duration": 180
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "18c3c27a5bd7dd4e57ecf2eb",
+    "from": "SIN",
+    "to": "DEL",
+    "departDate": "2026-02-19T10:35:32.840889",
+    "returnDate": "2026-02-24T10:35:32.840889",
+    "provider": "FlyFast",
+    "price": 2416.09,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF860",
+        "dep": "SIN",
+        "arr": "DEL",
+        "duration": 840
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "3eeea63c4910a93eb181a895",
+    "from": "SYD",
+    "to": "BKK",
+    "departDate": "2026-02-04T10:35:32.840920",
+    "returnDate": "2026-02-20T10:35:32.840920",
+    "provider": "AirZen",
+    "price": 1126.91,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ199",
+        "dep": "SYD",
+        "arr": "BKK",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 8,
+      "price": 1788.17
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 252.03
+    }
+  },
+  {
+    "_id": "5c20f7ca695336baa266e438",
+    "from": "ROM",
+    "to": "AMS",
+    "departDate": "2026-02-09T10:35:32.840960",
+    "returnDate": "2026-02-23T10:35:32.840960",
+    "provider": "FlyFast",
+    "price": 157.04,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL667",
+        "dep": "ROM",
+        "arr": "AMS",
+        "duration": 480
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 3,
+      "price": 1115.87
+    },
+    "activity": null
+  },
+  {
+    "_id": "cd651b9a32c18b71421b6c67",
+    "from": "ROM",
+    "to": "SIN",
+    "departDate": "2025-06-27T10:35:32.840996",
+    "returnDate": "2025-07-05T10:35:32.840996",
+    "provider": "SkyWings",
+    "price": 509.97,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL357",
+        "dep": "ROM",
+        "arr": "SIN",
+        "duration": 360
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 7,
+      "price": 1504.6
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 350.33
+    }
+  },
+  {
+    "_id": "2af01d5a46a3778801a1f4a6",
+    "from": "BKK",
+    "to": "LAX",
+    "departDate": "2025-05-01T10:35:32.841035",
+    "returnDate": "2025-05-11T10:35:32.841035",
+    "provider": "AirZen",
+    "price": 312.5,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ413",
+        "dep": "BKK",
+        "arr": "LAX",
+        "duration": 60
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 4,
+      "price": 1976.36
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 164.6
+    }
+  },
+  {
+    "_id": "c31531e84febb675551a66f9",
+    "from": "SFO",
+    "to": "IST",
+    "departDate": "2025-11-03T10:35:32.841075",
+    "returnDate": "2025-11-17T10:35:32.841075",
+    "provider": "GlobeTrotter",
+    "price": 1709.46,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL287",
+        "dep": "SFO",
+        "arr": "IST",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 4,
+      "price": 1544.86
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 174.53
+    }
+  },
+  {
+    "_id": "402162aedda25fe7f0583815",
+    "from": "PAR",
+    "to": "SYD",
+    "departDate": "2025-10-19T10:35:32.841113",
+    "returnDate": "2025-11-07T10:35:32.841113",
+    "provider": "GlobeTrotter",
+    "price": 1441.33,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK225",
+        "dep": "PAR",
+        "arr": "SYD",
+        "duration": 360
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 5,
+      "price": 466.61
+    },
+    "activity": null
+  },
+  {
+    "_id": "7028c6c842add510e7db4994",
+    "from": "LON",
+    "to": "MEX",
+    "departDate": "2025-10-22T10:35:32.841149",
+    "returnDate": "2025-10-25T10:35:32.841149",
+    "provider": "AirZen",
+    "price": 1141.73,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL592",
+        "dep": "LON",
+        "arr": "MEX",
+        "duration": 240
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 150.4
+    }
+  },
+  {
+    "_id": "17412e9061dd5d22a4df8fa3",
+    "from": "NYC",
+    "to": "SIN",
+    "departDate": "2025-11-02T10:35:32.841184",
+    "returnDate": "2025-11-15T10:35:32.841184",
+    "provider": "GlobeTrotter",
+    "price": 1039.6,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL781",
+        "dep": "NYC",
+        "arr": "SIN",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "2639c27526cc8d1fb60db4aa",
+    "from": "IST",
+    "to": "MEX",
+    "departDate": "2026-02-05T10:35:32.841216",
+    "returnDate": "2026-02-12T10:35:32.841216",
+    "provider": "SkyWings",
+    "price": 655.41,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF876",
+        "dep": "IST",
+        "arr": "MEX",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 10,
+      "price": 216.11
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 61.34
+    }
+  },
+  {
+    "_id": "d4a7705c6d74efddde045e74",
+    "from": "MEX",
+    "to": "IST",
+    "departDate": "2025-11-10T10:35:32.841255",
+    "returnDate": "2025-11-28T10:35:32.841255",
+    "provider": "AirZen",
+    "price": 208.57,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF326",
+        "dep": "MEX",
+        "arr": "IST",
+        "duration": 360
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 232.43
+    }
+  },
+  {
+    "_id": "bd6d62287f2b660c203895ce",
+    "from": "MEX",
+    "to": "PAR",
+    "departDate": "2025-05-20T10:35:32.841292",
+    "returnDate": "2025-06-06T10:35:32.841292",
+    "provider": "AirZen",
+    "price": 712.45,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL702",
+        "dep": "MEX",
+        "arr": "PAR",
+        "duration": 240
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 9,
+      "price": 1409.65
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 287.6
+    }
+  },
+  {
+    "_id": "8c33c4d3404b6da070fb1d70",
+    "from": "SFO",
+    "to": "DXB",
+    "departDate": "2025-09-05T10:35:32.841332",
+    "returnDate": "2025-09-21T10:35:32.841332",
+    "provider": "FlyFast",
+    "price": 1154.18,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ916",
+        "dep": "SFO",
+        "arr": "DXB",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 2,
+      "price": 1171.06
+    },
+    "activity": null
+  },
+  {
+    "_id": "20c5877fd9d093781d30c1a5",
+    "from": "BER",
+    "to": "PAR",
+    "departDate": "2026-03-10T10:35:32.841367",
+    "returnDate": "2026-03-21T10:35:32.841367",
+    "provider": "SkyWings",
+    "price": 723.9,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL538",
+        "dep": "BER",
+        "arr": "PAR",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "4e6f21707d8a075bca6c7383",
+    "from": "TYO",
+    "to": "IST",
+    "departDate": "2025-08-02T10:35:32.841402",
+    "returnDate": "2025-08-13T10:35:32.841402",
+    "provider": "SkyWings",
+    "price": 2376.7,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL930",
+        "dep": "TYO",
+        "arr": "IST",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 12,
+      "price": 213.97
+    },
+    "activity": null
+  },
+  {
+    "_id": "2f5b370c5015a8214c1dfbba",
+    "from": "PAR",
+    "to": "YVR",
+    "departDate": "2025-10-15T10:35:32.841439",
+    "returnDate": "2025-11-02T10:35:32.841439",
+    "provider": "FlyFast",
+    "price": 433.05,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF104",
+        "dep": "PAR",
+        "arr": "YVR",
+        "duration": 480
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 7,
+      "price": 802.07
+    },
+    "activity": null
+  },
+  {
+    "_id": "5170527d265d7d581dfbe0fb",
+    "from": "SAO",
+    "to": "PAR",
+    "departDate": "2026-02-05T10:35:32.841476",
+    "returnDate": "2026-02-14T10:35:32.841476",
+    "provider": "JetStream",
+    "price": 1175.69,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA921",
+        "dep": "SAO",
+        "arr": "PAR",
+        "duration": 240
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 2,
+      "price": 950.67
+    },
+    "activity": null
+  },
+  {
+    "_id": "e8adeb795d816121006c4cb0",
+    "from": "MAD",
+    "to": "MEX",
+    "departDate": "2026-01-11T10:35:32.841512",
+    "returnDate": "2026-01-21T10:35:32.841512",
+    "provider": "AirZen",
+    "price": 638.89,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA811",
+        "dep": "MAD",
+        "arr": "MEX",
+        "duration": 60
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 6,
+      "price": 1786.2
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 351.17
+    }
+  },
+  {
+    "_id": "473f8e4418ae0b7162c2d503",
+    "from": "MEX",
+    "to": "YVR",
+    "departDate": "2026-04-15T10:35:32.841550",
+    "returnDate": "2026-04-24T10:35:32.841550",
+    "provider": "AirZen",
+    "price": 1781.67,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA118",
+        "dep": "MEX",
+        "arr": "YVR",
+        "duration": 780
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 346.57
+    }
+  },
+  {
+    "_id": "c839e15b95c45e19f71c5070",
+    "from": "NYC",
+    "to": "LAX",
+    "departDate": "2026-04-12T10:35:32.841586",
+    "returnDate": "2026-04-21T10:35:32.841586",
+    "provider": "GlobeTrotter",
+    "price": 446.33,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF413",
+        "dep": "NYC",
+        "arr": "LAX",
+        "duration": 900
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 12,
+      "price": 1337.25
+    },
+    "activity": null
+  },
+  {
+    "_id": "3574fd0531513f8bcbc4cc68",
+    "from": "BER",
+    "to": "ROM",
+    "departDate": "2026-04-15T10:35:32.841622",
+    "returnDate": "2026-04-22T10:35:32.841622",
+    "provider": "AirZen",
+    "price": 178.68,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ722",
+        "dep": "BER",
+        "arr": "ROM",
+        "duration": 780
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "0d7fd0a6e0046fca595d9299",
+    "from": "JNB",
+    "to": "LAX",
+    "departDate": "2025-08-02T10:35:32.841654",
+    "returnDate": "2025-08-06T10:35:32.841654",
+    "provider": "GlobeTrotter",
+    "price": 914.44,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA126",
+        "dep": "JNB",
+        "arr": "LAX",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 6,
+      "price": 554.45
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 229.14
+    }
+  },
+  {
+    "_id": "41e2fc3c8ae3401cfa2080cb",
+    "from": "MEX",
+    "to": "NYC",
+    "departDate": "2025-05-27T10:35:32.841694",
+    "returnDate": "2025-06-14T10:35:32.841694",
+    "provider": "FlyFast",
+    "price": 1727.59,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA636",
+        "dep": "MEX",
+        "arr": "NYC",
+        "duration": 900
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 384.22
+    }
+  },
+  {
+    "_id": "57f7e3ff36af61f37db3601a",
+    "from": "BER",
+    "to": "MEX",
+    "departDate": "2025-07-06T10:35:32.841730",
+    "returnDate": "2025-07-15T10:35:32.841730",
+    "provider": "GlobeTrotter",
+    "price": 1926.7,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH151",
+        "dep": "BER",
+        "arr": "MEX",
+        "duration": 360
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 8,
+      "price": 1896.73
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 201.6
+    }
+  },
+  {
+    "_id": "b94441033dc99225346af2fe",
+    "from": "DXB",
+    "to": "ROM",
+    "departDate": "2025-10-10T10:35:32.841770",
+    "returnDate": "2025-10-19T10:35:32.841770",
+    "provider": "GlobeTrotter",
+    "price": 2087.34,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK448",
+        "dep": "DXB",
+        "arr": "ROM",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 2,
+      "price": 1049.37
+    },
+    "activity": null
+  },
+  {
+    "_id": "5abc3ceae2cabf364a7042b4",
+    "from": "LON",
+    "to": "NYC",
+    "departDate": "2025-09-17T10:35:32.842025",
+    "returnDate": "2025-10-02T10:35:32.842025",
+    "provider": "AirZen",
+    "price": 1332.33,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH985",
+        "dep": "LON",
+        "arr": "NYC",
+        "duration": 180
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 230.86
+    }
+  },
+  {
+    "_id": "5873d13a95974a889fb8124c",
+    "from": "TYO",
+    "to": "DXB",
+    "departDate": "2025-08-21T10:35:32.842064",
+    "returnDate": "2025-09-06T10:35:32.842064",
+    "provider": "AirZen",
+    "price": 1137.41,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA795",
+        "dep": "TYO",
+        "arr": "DXB",
+        "duration": 60
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 47.74
+    }
+  },
+  {
+    "_id": "b5d10d00d8224f9b2d7b345d",
+    "from": "SIN",
+    "to": "SFO",
+    "departDate": "2025-05-20T10:35:32.842100",
+    "returnDate": "2025-06-03T10:35:32.842100",
+    "provider": "SkyWings",
+    "price": 893.76,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ670",
+        "dep": "SIN",
+        "arr": "SFO",
+        "duration": 120
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 51.5
+    }
+  },
+  {
+    "_id": "7527778fad9e81fc2a8acb13",
+    "from": "LON",
+    "to": "DEL",
+    "departDate": "2026-01-11T10:35:32.842135",
+    "returnDate": "2026-01-22T10:35:32.842135",
+    "provider": "FlyFast",
+    "price": 661.21,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "EK389",
+        "dep": "LON",
+        "arr": "DEL",
+        "duration": 900
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "a00b52b1129aed9c8626a0bb",
+    "from": "SFO",
+    "to": "SIN",
+    "departDate": "2026-02-02T10:35:32.842167",
+    "returnDate": "2026-02-22T10:35:32.842167",
+    "provider": "FlyFast",
+    "price": 148.51,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL421",
+        "dep": "SFO",
+        "arr": "SIN",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 202.34
+    }
+  },
+  {
+    "_id": "17df96b02bb1391ac8ccfcd7",
+    "from": "IST",
+    "to": "SYD",
+    "departDate": "2026-04-25T10:35:32.842202",
+    "returnDate": "2026-05-12T10:35:32.842202",
+    "provider": "GlobeTrotter",
+    "price": 219.63,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA252",
+        "dep": "IST",
+        "arr": "SYD",
+        "duration": 120
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 11,
+      "price": 242.41
+    },
+    "activity": null
+  },
+  {
+    "_id": "80669f5780e33b440b82592d",
+    "from": "SAO",
+    "to": "ROM",
+    "departDate": "2025-07-16T10:35:32.842242",
+    "returnDate": "2025-07-21T10:35:32.842242",
+    "provider": "AirZen",
+    "price": 2471.23,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF744",
+        "dep": "SAO",
+        "arr": "ROM",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 138.76
+    }
+  },
+  {
+    "_id": "1a1a2716df11debed1d4cbc8",
+    "from": "SAO",
+    "to": "MEX",
+    "departDate": "2026-04-10T10:35:32.842278",
+    "returnDate": "2026-04-23T10:35:32.842278",
+    "provider": "SkyWings",
+    "price": 1941.32,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ797",
+        "dep": "SAO",
+        "arr": "MEX",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 250.9
+    }
+  },
+  {
+    "_id": "f8c4d5426413321f120b0fe7",
+    "from": "SAO",
+    "to": "AMS",
+    "departDate": "2026-01-02T10:35:32.842313",
+    "returnDate": "2026-01-16T10:35:32.842313",
+    "provider": "GlobeTrotter",
+    "price": 1634.54,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA819",
+        "dep": "SAO",
+        "arr": "AMS",
+        "duration": 780
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 9,
+      "price": 1200.39
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 342.26
+    }
+  },
+  {
+    "_id": "3ca4b9d0707c629f956db2ea",
+    "from": "SIN",
+    "to": "LON",
+    "departDate": "2025-07-11T10:35:32.842352",
+    "returnDate": "2025-07-14T10:35:32.842352",
+    "provider": "AirZen",
+    "price": 409.81,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL546",
+        "dep": "SIN",
+        "arr": "LON",
+        "duration": 600
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "2f6977f776f8fec4796afc38",
+    "from": "JNB",
+    "to": "SYD",
+    "departDate": "2025-07-06T10:35:32.842385",
+    "returnDate": "2025-07-10T10:35:32.842385",
+    "provider": "JetStream",
+    "price": 503.82,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH142",
+        "dep": "JNB",
+        "arr": "SYD",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "d6ab95adedb50faec507d9ab",
+    "from": "PAR",
+    "to": "SIN",
+    "departDate": "2026-04-04T10:35:32.842417",
+    "returnDate": "2026-04-22T10:35:32.842417",
+    "provider": "GlobeTrotter",
+    "price": 1776.83,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH874",
+        "dep": "PAR",
+        "arr": "SIN",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 5,
+      "price": 1511.06
+    },
+    "activity": null
+  },
+  {
+    "_id": "91a3a29f68e0207f7f86bd6f",
+    "from": "AMS",
+    "to": "MAD",
+    "departDate": "2025-08-09T10:35:32.842453",
+    "returnDate": "2025-08-26T10:35:32.842453",
+    "provider": "FlyFast",
+    "price": 794.06,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ875",
+        "dep": "AMS",
+        "arr": "MAD",
+        "duration": 480
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 4,
+      "price": 761.89
+    },
+    "activity": null
+  },
+  {
+    "_id": "f3e6a453e01594703dc5d7af",
+    "from": "ROM",
+    "to": "LAX",
+    "departDate": "2026-03-13T10:35:32.842488",
+    "returnDate": "2026-03-24T10:35:32.842488",
+    "provider": "GlobeTrotter",
+    "price": 146.95,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ336",
+        "dep": "ROM",
+        "arr": "LAX",
+        "duration": 300
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 9,
+      "price": 1661.24
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 66.2
+    }
+  },
+  {
+    "_id": "82db796f2ee06975234842d9",
+    "from": "ROM",
+    "to": "BER",
+    "departDate": "2025-10-28T10:35:32.842526",
+    "returnDate": "2025-11-04T10:35:32.842526",
+    "provider": "FlyFast",
+    "price": 2394.79,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ126",
+        "dep": "ROM",
+        "arr": "BER",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "956d9b5b28416de1031b6f77",
+    "from": "BKK",
+    "to": "SAO",
+    "departDate": "2026-04-19T10:35:32.842559",
+    "returnDate": "2026-05-01T10:35:32.842559",
+    "provider": "GlobeTrotter",
+    "price": 2366.48,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "EK865",
+        "dep": "BKK",
+        "arr": "SAO",
+        "duration": 120
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 9,
+      "price": 1753.29
+    },
+    "activity": null
+  },
+  {
+    "_id": "1b37d16b628b273c664b4760",
+    "from": "MEX",
+    "to": "ROM",
+    "departDate": "2025-08-09T10:35:32.842596",
+    "returnDate": "2025-08-19T10:35:32.842596",
+    "provider": "FlyFast",
+    "price": 1163.69,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "EK718",
+        "dep": "MEX",
+        "arr": "ROM",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 4,
+      "price": 1074.62
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 214.56
+    }
+  },
+  {
+    "_id": "e231dd2737452756bde1a89c",
+    "from": "AMS",
+    "to": "NYC",
+    "departDate": "2025-06-29T10:35:32.842647",
+    "returnDate": "2025-07-12T10:35:32.842647",
+    "provider": "GlobeTrotter",
+    "price": 642.25,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA692",
+        "dep": "AMS",
+        "arr": "NYC",
+        "duration": 240
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 12,
+      "price": 1369.28
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 282.97
+    }
+  },
+  {
+    "_id": "59c2fc48d1963d6022726fcb",
+    "from": "BER",
+    "to": "SYD",
+    "departDate": "2025-06-11T10:35:32.842686",
+    "returnDate": "2025-06-23T10:35:32.842686",
+    "provider": "GlobeTrotter",
+    "price": 1426.12,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH696",
+        "dep": "BER",
+        "arr": "SYD",
+        "duration": 900
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 3,
+      "price": 1591.09
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 371.61
+    }
+  },
+  {
+    "_id": "ac8e60deb6754874e0ba4cb1",
+    "from": "SIN",
+    "to": "TYO",
+    "departDate": "2025-09-10T10:35:32.842727",
+    "returnDate": "2025-09-25T10:35:32.842727",
+    "provider": "SkyWings",
+    "price": 280.73,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA971",
+        "dep": "SIN",
+        "arr": "TYO",
+        "duration": 360
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 6,
+      "price": 1905.04
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 113.15
+    }
+  },
+  {
+    "_id": "a6a882d22168186e5fdc2ab6",
+    "from": "DXB",
+    "to": "AMS",
+    "departDate": "2026-03-03T10:35:32.842766",
+    "returnDate": "2026-03-23T10:35:32.842766",
+    "provider": "FlyFast",
+    "price": 456.62,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH210",
+        "dep": "DXB",
+        "arr": "AMS",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 7,
+      "price": 278.22
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 175.19
+    }
+  },
+  {
+    "_id": "7b8f2ae5a55d7d9fb314e121",
+    "from": "ROM",
+    "to": "BER",
+    "departDate": "2026-02-26T10:35:32.842804",
+    "returnDate": "2026-03-16T10:35:32.842804",
+    "provider": "SkyWings",
+    "price": 1342.63,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA735",
+        "dep": "ROM",
+        "arr": "BER",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 4,
+      "price": 1353.01
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 157.8
+    }
+  },
+  {
+    "_id": "d7d08e6378adaba568f638cc",
+    "from": "SFO",
+    "to": "SAO",
+    "departDate": "2026-03-13T10:35:32.842842",
+    "returnDate": "2026-03-22T10:35:32.842842",
+    "provider": "SkyWings",
+    "price": 240.72,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA321",
+        "dep": "SFO",
+        "arr": "SAO",
+        "duration": 900
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 260.17
+    }
+  },
+  {
+    "_id": "7597bcb0ab980baa4b3e2ffe",
+    "from": "SFO",
+    "to": "ROM",
+    "departDate": "2025-12-20T10:35:32.842880",
+    "returnDate": "2026-01-08T10:35:32.842880",
+    "provider": "GlobeTrotter",
+    "price": 1577.76,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL457",
+        "dep": "SFO",
+        "arr": "ROM",
+        "duration": 300
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "bb46ca9fe32669b27064c8a1",
+    "from": "LAX",
+    "to": "YVR",
+    "departDate": "2026-04-11T10:35:32.842911",
+    "returnDate": "2026-04-14T10:35:32.842911",
+    "provider": "AirZen",
+    "price": 660.81,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "EK123",
+        "dep": "LAX",
+        "arr": "YVR",
+        "duration": 120
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 312.9
+    }
+  },
+  {
+    "_id": "9459adfd1afd427a383b5b0d",
+    "from": "PAR",
+    "to": "LAX",
+    "departDate": "2025-10-30T10:35:32.842945",
+    "returnDate": "2025-11-13T10:35:32.842945",
+    "provider": "FlyFast",
+    "price": 1820.01,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF880",
+        "dep": "PAR",
+        "arr": "LAX",
+        "duration": 240
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 8,
+      "price": 1214.54
+    },
+    "activity": null
+  },
+  {
+    "_id": "69757314e4afe8b4eb369fc3",
+    "from": "IST",
+    "to": "JNB",
+    "departDate": "2025-05-20T10:35:32.842980",
+    "returnDate": "2025-06-04T10:35:32.842980",
+    "provider": "JetStream",
+    "price": 1619.25,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL772",
+        "dep": "IST",
+        "arr": "JNB",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 303.89
+    }
+  },
+  {
+    "_id": "3e0225188442c08674d7cc7a",
+    "from": "MAD",
+    "to": "NYC",
+    "departDate": "2026-01-22T10:35:32.843018",
+    "returnDate": "2026-02-03T10:35:32.843018",
+    "provider": "FlyFast",
+    "price": 1273.25,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "EK175",
+        "dep": "MAD",
+        "arr": "NYC",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 4,
+      "price": 204.7
+    },
+    "activity": null
+  },
+  {
+    "_id": "5858973c933dd6aaab66c628",
+    "from": "ROM",
+    "to": "LON",
+    "departDate": "2026-04-21T10:35:32.843055",
+    "returnDate": "2026-05-09T10:35:32.843055",
+    "provider": "GlobeTrotter",
+    "price": 1931.93,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "EK922",
+        "dep": "ROM",
+        "arr": "LON",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "9e87f549284b72f627beb3d0",
+    "from": "SIN",
+    "to": "PAR",
+    "departDate": "2026-03-28T10:35:32.843087",
+    "returnDate": "2026-04-04T10:35:32.843087",
+    "provider": "FlyFast",
+    "price": 2069.01,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "EK452",
+        "dep": "SIN",
+        "arr": "PAR",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 7,
+      "price": 497.71
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 140.09
+    }
+  },
+  {
+    "_id": "85dc47d370ebd2901549a2b4",
+    "from": "NYC",
+    "to": "BKK",
+    "departDate": "2026-01-06T10:35:32.843126",
+    "returnDate": "2026-01-14T10:35:32.843126",
+    "provider": "GlobeTrotter",
+    "price": 2334.53,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ749",
+        "dep": "NYC",
+        "arr": "BKK",
+        "duration": 780
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 156.91
+    }
+  },
+  {
+    "_id": "27a972add8ef05d016d59700",
+    "from": "AMS",
+    "to": "DXB",
+    "departDate": "2026-01-22T10:35:32.843161",
+    "returnDate": "2026-01-28T10:35:32.843161",
+    "provider": "FlyFast",
+    "price": 305.74,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF942",
+        "dep": "AMS",
+        "arr": "DXB",
+        "duration": 900
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 234.04
+    }
+  },
+  {
+    "_id": "3a2cb72b03d29674256d50fb",
+    "from": "AMS",
+    "to": "SIN",
+    "departDate": "2025-05-14T10:35:32.843197",
+    "returnDate": "2025-05-21T10:35:32.843197",
+    "provider": "SkyWings",
+    "price": 2352.3,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK395",
+        "dep": "AMS",
+        "arr": "SIN",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "43d646a75cdf84009b44b339",
+    "from": "IST",
+    "to": "AMS",
+    "departDate": "2025-07-31T10:35:32.843229",
+    "returnDate": "2025-08-11T10:35:32.843229",
+    "provider": "FlyFast",
+    "price": 1403.3,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH729",
+        "dep": "IST",
+        "arr": "AMS",
+        "duration": 540
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 226.58
+    }
+  },
+  {
+    "_id": "ef2061d00f22676fece4d58c",
+    "from": "SYD",
+    "to": "YVR",
+    "departDate": "2025-12-01T10:35:32.843263",
+    "returnDate": "2025-12-20T10:35:32.843263",
+    "provider": "SkyWings",
+    "price": 1066.15,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA981",
+        "dep": "SYD",
+        "arr": "YVR",
+        "duration": 480
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 7,
+      "price": 868.88
+    },
+    "activity": null
+  },
+  {
+    "_id": "614dc6155b6d80ade2f93ef9",
+    "from": "IST",
+    "to": "ROM",
+    "departDate": "2025-11-29T10:35:32.843300",
+    "returnDate": "2025-12-12T10:35:32.843300",
+    "provider": "FlyFast",
+    "price": 1099.65,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "EK686",
+        "dep": "IST",
+        "arr": "ROM",
+        "duration": 60
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 214.53
+    }
+  },
+  {
+    "_id": "dafd55e93bbaa7209760d9c5",
+    "from": "SFO",
+    "to": "AMS",
+    "departDate": "2026-02-03T10:35:32.843335",
+    "returnDate": "2026-02-22T10:35:32.843335",
+    "provider": "JetStream",
+    "price": 1804.13,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ227",
+        "dep": "SFO",
+        "arr": "AMS",
+        "duration": 180
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 199.88
+    }
+  },
+  {
+    "_id": "e1282a4bd70bd357356c7b7f",
+    "from": "TYO",
+    "to": "ROM",
+    "departDate": "2025-07-27T10:35:32.843383",
+    "returnDate": "2025-08-13T10:35:32.843383",
+    "provider": "FlyFast",
+    "price": 357.94,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK931",
+        "dep": "TYO",
+        "arr": "ROM",
+        "duration": 300
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 335.2
+    }
+  },
+  {
+    "_id": "9572ba0e1c5f7f50dade966d",
+    "from": "BER",
+    "to": "PAR",
+    "departDate": "2025-12-26T10:35:32.843418",
+    "returnDate": "2026-01-05T10:35:32.843418",
+    "provider": "JetStream",
+    "price": 2006.36,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL142",
+        "dep": "BER",
+        "arr": "PAR",
+        "duration": 720
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 12,
+      "price": 1470.65
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 140.62
+    }
+  },
+  {
+    "_id": "499d71e0f8340d519f5148af",
+    "from": "SYD",
+    "to": "BKK",
+    "departDate": "2026-03-14T10:35:32.843456",
+    "returnDate": "2026-03-30T10:35:32.843456",
+    "provider": "JetStream",
+    "price": 2274.51,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ752",
+        "dep": "SYD",
+        "arr": "BKK",
+        "duration": 660
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 3,
+      "price": 257.27
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 84.61
+    }
+  },
+  {
+    "_id": "6fab54af998b2e586bc85be4",
+    "from": "NYC",
+    "to": "SFO",
+    "departDate": "2026-03-06T10:35:32.843495",
+    "returnDate": "2026-03-13T10:35:32.843495",
+    "provider": "FlyFast",
+    "price": 583.08,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH865",
+        "dep": "NYC",
+        "arr": "SFO",
+        "duration": 60
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 2,
+      "price": 1744.83
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 394.45
+    }
+  },
+  {
+    "_id": "ba3270fe2795790c31679467",
+    "from": "SFO",
+    "to": "BER",
+    "departDate": "2025-08-01T10:35:32.843535",
+    "returnDate": "2025-08-13T10:35:32.843535",
+    "provider": "JetStream",
+    "price": 1691.19,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL167",
+        "dep": "SFO",
+        "arr": "BER",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 2,
+      "price": 1681.91
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 167.96
+    }
+  },
+  {
+    "_id": "2690eefc4497f5116b755d73",
+    "from": "DEL",
+    "to": "LON",
+    "departDate": "2026-04-27T10:35:32.843573",
+    "returnDate": "2026-05-02T10:35:32.843573",
+    "provider": "JetStream",
+    "price": 1457.58,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ411",
+        "dep": "DEL",
+        "arr": "LON",
+        "duration": 240
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 218.16
+    }
+  },
+  {
+    "_id": "72657aba3283f7210f93a1aa",
+    "from": "SIN",
+    "to": "IST",
+    "departDate": "2026-03-31T10:35:32.843611",
+    "returnDate": "2026-04-19T10:35:32.843611",
+    "provider": "SkyWings",
+    "price": 894.25,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA153",
+        "dep": "SIN",
+        "arr": "IST",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 10,
+      "price": 1511.73
+    },
+    "activity": null
+  },
+  {
+    "_id": "c6604d3f147fa444927eecf3",
+    "from": "BKK",
+    "to": "MEX",
+    "departDate": "2026-01-01T10:35:32.843647",
+    "returnDate": "2026-01-07T10:35:32.843647",
+    "provider": "SkyWings",
+    "price": 2174.37,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF628",
+        "dep": "BKK",
+        "arr": "MEX",
+        "duration": 720
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 4,
+      "price": 217.91
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 232.74
+    }
+  },
+  {
+    "_id": "aa033934604aec6ac0833ae0",
+    "from": "TYO",
+    "to": "BER",
+    "departDate": "2025-06-29T10:35:32.843686",
+    "returnDate": "2025-07-11T10:35:32.843686",
+    "provider": "GlobeTrotter",
+    "price": 1960.78,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ158",
+        "dep": "TYO",
+        "arr": "BER",
+        "duration": 600
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "0f03414a4e8d1d477dda0ef7",
+    "from": "BER",
+    "to": "SAO",
+    "departDate": "2025-07-27T10:35:32.843718",
+    "returnDate": "2025-08-09T10:35:32.843718",
+    "provider": "SkyWings",
+    "price": 1337.61,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL845",
+        "dep": "BER",
+        "arr": "SAO",
+        "duration": 840
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 154.21
+    }
+  },
+  {
+    "_id": "854306a2d3071c7cdc8e02a0",
+    "from": "MAD",
+    "to": "BKK",
+    "departDate": "2025-09-23T10:35:32.843753",
+    "returnDate": "2025-10-10T10:35:32.843753",
+    "provider": "FlyFast",
+    "price": 1316.81,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA558",
+        "dep": "MAD",
+        "arr": "BKK",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 12,
+      "price": 779.37
+    },
+    "activity": null
+  },
+  {
+    "_id": "c42066235359e7bcfea0b91b",
+    "from": "SIN",
+    "to": "SYD",
+    "departDate": "2025-10-09T10:35:32.843788",
+    "returnDate": "2025-10-13T10:35:32.843788",
+    "provider": "FlyFast",
+    "price": 1848.51,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH222",
+        "dep": "SIN",
+        "arr": "SYD",
+        "duration": 120
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 2,
+      "price": 700.61
+    },
+    "activity": null
+  },
+  {
+    "_id": "2e0eb0d85fd6371db135d1bb",
+    "from": "DEL",
+    "to": "DXB",
+    "departDate": "2026-01-06T10:35:32.843828",
+    "returnDate": "2026-01-16T10:35:32.843828",
+    "provider": "FlyFast",
+    "price": 961.61,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL900",
+        "dep": "DEL",
+        "arr": "DXB",
+        "duration": 420
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 101.77
+    }
+  },
+  {
+    "_id": "d4f4881dc97c3e23b434824b",
+    "from": "LAX",
+    "to": "DEL",
+    "departDate": "2025-10-17T10:35:32.843864",
+    "returnDate": "2025-10-27T10:35:32.843864",
+    "provider": "JetStream",
+    "price": 609.73,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH817",
+        "dep": "LAX",
+        "arr": "DEL",
+        "duration": 900
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 132.25
+    }
+  },
+  {
+    "_id": "abf529ebf2a9efb60566dd66",
+    "from": "BKK",
+    "to": "ROM",
+    "departDate": "2025-05-14T10:35:32.843899",
+    "returnDate": "2025-05-26T10:35:32.843899",
+    "provider": "GlobeTrotter",
+    "price": 530.83,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ739",
+        "dep": "BKK",
+        "arr": "ROM",
+        "duration": 720
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 8,
+      "price": 262.47
+    },
+    "activity": null
+  },
+  {
+    "_id": "39666e07290a2c6675735286",
+    "from": "TYO",
+    "to": "MEX",
+    "departDate": "2026-02-26T10:35:32.843934",
+    "returnDate": "2026-03-04T10:35:32.843934",
+    "provider": "SkyWings",
+    "price": 1294.38,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA201",
+        "dep": "TYO",
+        "arr": "MEX",
+        "duration": 240
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 6,
+      "price": 1452.8
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 32.68
+    }
+  },
+  {
+    "_id": "c1ed81d65e101887f5b129de",
+    "from": "SYD",
+    "to": "PAR",
+    "departDate": "2025-12-10T10:35:32.844060",
+    "returnDate": "2025-12-24T10:35:32.844060",
+    "provider": "SkyWings",
+    "price": 1433.91,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL254",
+        "dep": "SYD",
+        "arr": "PAR",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 7,
+      "price": 963.4
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 224.19
+    }
+  },
+  {
+    "_id": "80720ec2513b2a3a7d3a1b0b",
+    "from": "BKK",
+    "to": "LON",
+    "departDate": "2025-09-25T10:35:32.844100",
+    "returnDate": "2025-10-06T10:35:32.844100",
+    "provider": "AirZen",
+    "price": 2393.65,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA131",
+        "dep": "BKK",
+        "arr": "LON",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 5,
+      "price": 282.22
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 392.77
+    }
+  },
+  {
+    "_id": "301b164cfd93b9aae3ad2ecc",
+    "from": "MEX",
+    "to": "IST",
+    "departDate": "2025-11-02T10:35:32.844140",
+    "returnDate": "2025-11-07T10:35:32.844140",
+    "provider": "AirZen",
+    "price": 2485.46,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA419",
+        "dep": "MEX",
+        "arr": "IST",
+        "duration": 900
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "20dd3c8a29d562c715a7a38b",
+    "from": "DXB",
+    "to": "SFO",
+    "departDate": "2026-04-26T10:35:32.844172",
+    "returnDate": "2026-05-06T10:35:32.844172",
+    "provider": "AirZen",
+    "price": 494.49,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ795",
+        "dep": "DXB",
+        "arr": "SFO",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "04e5d8fe46add8e0bcbc82a5",
+    "from": "SFO",
+    "to": "PAR",
+    "departDate": "2026-04-05T10:35:32.844204",
+    "returnDate": "2026-04-12T10:35:32.844204",
+    "provider": "JetStream",
+    "price": 166.71,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL410",
+        "dep": "SFO",
+        "arr": "PAR",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 8,
+      "price": 158.37
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 208.17
+    }
+  },
+  {
+    "_id": "486ebcf309d382633c2fb130",
+    "from": "DXB",
+    "to": "NYC",
+    "departDate": "2025-09-05T10:35:32.844245",
+    "returnDate": "2025-09-10T10:35:32.844245",
+    "provider": "AirZen",
+    "price": 2317.91,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH242",
+        "dep": "DXB",
+        "arr": "NYC",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 4,
+      "price": 926.11
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 130.23
+    }
+  },
+  {
+    "_id": "9d654f323ad88981971dc565",
+    "from": "ROM",
+    "to": "IST",
+    "departDate": "2025-08-16T10:35:32.844284",
+    "returnDate": "2025-08-26T10:35:32.844284",
+    "provider": "GlobeTrotter",
+    "price": 531.16,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH792",
+        "dep": "ROM",
+        "arr": "IST",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 378.0
+    }
+  },
+  {
+    "_id": "80ab16f583aab21905e8bac8",
+    "from": "ROM",
+    "to": "DXB",
+    "departDate": "2026-01-18T10:35:32.844319",
+    "returnDate": "2026-01-22T10:35:32.844319",
+    "provider": "FlyFast",
+    "price": 1257.05,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA640",
+        "dep": "ROM",
+        "arr": "DXB",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 8,
+      "price": 693.31
+    },
+    "activity": null
+  },
+  {
+    "_id": "ca3fa86a49e0b35ca61b5e84",
+    "from": "SFO",
+    "to": "SYD",
+    "departDate": "2025-11-24T10:35:32.844356",
+    "returnDate": "2025-12-01T10:35:32.844356",
+    "provider": "SkyWings",
+    "price": 309.38,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL167",
+        "dep": "SFO",
+        "arr": "SYD",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 11,
+      "price": 1269.22
+    },
+    "activity": null
+  },
+  {
+    "_id": "fd357b3e14f0cab66e0b8265",
+    "from": "IST",
+    "to": "SYD",
+    "departDate": "2025-09-11T10:35:32.844392",
+    "returnDate": "2025-09-22T10:35:32.844392",
+    "provider": "AirZen",
+    "price": 178.85,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL628",
+        "dep": "IST",
+        "arr": "SYD",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 176.47
+    }
+  },
+  {
+    "_id": "314b83c00c10283b5514737b",
+    "from": "SFO",
+    "to": "MAD",
+    "departDate": "2026-01-16T10:35:32.844427",
+    "returnDate": "2026-01-20T10:35:32.844427",
+    "provider": "FlyFast",
+    "price": 1324.98,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ638",
+        "dep": "SFO",
+        "arr": "MAD",
+        "duration": 120
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 288.41
+    }
+  },
+  {
+    "_id": "c0385e4d11ec70af4fc6e87e",
+    "from": "IST",
+    "to": "TYO",
+    "departDate": "2025-07-13T10:35:32.844462",
+    "returnDate": "2025-08-02T10:35:32.844462",
+    "provider": "JetStream",
+    "price": 521.55,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA661",
+        "dep": "IST",
+        "arr": "TYO",
+        "duration": 540
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 246.56
+    }
+  },
+  {
+    "_id": "20e2da78115dbee2784dea71",
+    "from": "SYD",
+    "to": "DEL",
+    "departDate": "2025-06-06T10:35:32.844498",
+    "returnDate": "2025-06-20T10:35:32.844498",
+    "provider": "FlyFast",
+    "price": 671.69,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF761",
+        "dep": "SYD",
+        "arr": "DEL",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 102.37
+    }
+  },
+  {
+    "_id": "dabad787908663ea537cbc24",
+    "from": "BER",
+    "to": "SFO",
+    "departDate": "2025-10-06T10:35:32.844542",
+    "returnDate": "2025-10-09T10:35:32.844542",
+    "provider": "SkyWings",
+    "price": 1505.92,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF837",
+        "dep": "BER",
+        "arr": "SFO",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 88.8
+    }
+  },
+  {
+    "_id": "b652a83f8a5645aaa1043af4",
+    "from": "LAX",
+    "to": "SIN",
+    "departDate": "2026-02-12T10:35:32.844579",
+    "returnDate": "2026-02-15T10:35:32.844579",
+    "provider": "FlyFast",
+    "price": 712.0,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF749",
+        "dep": "LAX",
+        "arr": "SIN",
+        "duration": 120
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "2a6f5e739d80ac46306de782",
+    "from": "MEX",
+    "to": "SFO",
+    "departDate": "2026-03-21T10:35:32.844610",
+    "returnDate": "2026-03-25T10:35:32.844610",
+    "provider": "GlobeTrotter",
+    "price": 384.94,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF435",
+        "dep": "MEX",
+        "arr": "SFO",
+        "duration": 420
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "7d0031619e2a4da16970dbed",
+    "from": "BKK",
+    "to": "LAX",
+    "departDate": "2025-07-28T10:35:32.844643",
+    "returnDate": "2025-08-09T10:35:32.844643",
+    "provider": "JetStream",
+    "price": 1810.28,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL596",
+        "dep": "BKK",
+        "arr": "LAX",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 6,
+      "price": 542.24
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 42.22
+    }
+  },
+  {
+    "_id": "22e0f63ae30835793da97ae4",
+    "from": "IST",
+    "to": "DXB",
+    "departDate": "2025-06-09T10:35:32.844681",
+    "returnDate": "2025-06-22T10:35:32.844681",
+    "provider": "FlyFast",
+    "price": 1694.42,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ375",
+        "dep": "IST",
+        "arr": "DXB",
+        "duration": 360
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 3,
+      "price": 338.62
+    },
+    "activity": null
+  },
+  {
+    "_id": "7f1f0192fc9162e1bc1caa92",
+    "from": "LON",
+    "to": "SFO",
+    "departDate": "2025-10-19T10:35:32.844719",
+    "returnDate": "2025-10-25T10:35:32.844719",
+    "provider": "JetStream",
+    "price": 628.86,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL513",
+        "dep": "LON",
+        "arr": "SFO",
+        "duration": 180
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 322.26
+    }
+  },
+  {
+    "_id": "9c842f2cca3b8487c490b9c0",
+    "from": "TYO",
+    "to": "ROM",
+    "departDate": "2025-11-12T10:35:32.844753",
+    "returnDate": "2025-11-28T10:35:32.844753",
+    "provider": "SkyWings",
+    "price": 524.76,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL518",
+        "dep": "TYO",
+        "arr": "ROM",
+        "duration": 840
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 10,
+      "price": 1605.22
+    },
+    "activity": null
+  },
+  {
+    "_id": "e10068cca4d25fab8e001fac",
+    "from": "LON",
+    "to": "TYO",
+    "departDate": "2025-06-23T10:35:32.844791",
+    "returnDate": "2025-06-29T10:35:32.844791",
+    "provider": "JetStream",
+    "price": 691.15,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF496",
+        "dep": "LON",
+        "arr": "TYO",
+        "duration": 120
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 120.51
+    }
+  },
+  {
+    "_id": "302cc3dbc0926e1c737772e8",
+    "from": "BKK",
+    "to": "MEX",
+    "departDate": "2025-11-22T10:35:32.844825",
+    "returnDate": "2025-12-05T10:35:32.844825",
+    "provider": "SkyWings",
+    "price": 1042.94,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL174",
+        "dep": "BKK",
+        "arr": "MEX",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 140.47
+    }
+  },
+  {
+    "_id": "d068e875e8a835f48ebcf197",
+    "from": "SAO",
+    "to": "ROM",
+    "departDate": "2026-04-21T10:35:32.844860",
+    "returnDate": "2026-04-29T10:35:32.844860",
+    "provider": "SkyWings",
+    "price": 567.86,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF178",
+        "dep": "SAO",
+        "arr": "ROM",
+        "duration": 420
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 280.15
+    }
+  },
+  {
+    "_id": "7274e536cdfa8a2c14770019",
+    "from": "IST",
+    "to": "PAR",
+    "departDate": "2025-12-06T10:35:32.844896",
+    "returnDate": "2025-12-20T10:35:32.844896",
+    "provider": "FlyFast",
+    "price": 897.78,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ881",
+        "dep": "IST",
+        "arr": "PAR",
+        "duration": 300
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "213c0b8bdb6426b126000f34",
+    "from": "MEX",
+    "to": "TYO",
+    "departDate": "2025-09-20T10:35:32.844929",
+    "returnDate": "2025-10-07T10:35:32.844929",
+    "provider": "SkyWings",
+    "price": 2236.2,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH449",
+        "dep": "MEX",
+        "arr": "TYO",
+        "duration": 240
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 8,
+      "price": 863.92
+    },
+    "activity": null
+  },
+  {
+    "_id": "8c6635963a39e8bd3fb56f50",
+    "from": "DEL",
+    "to": "SYD",
+    "departDate": "2025-08-27T10:35:32.844964",
+    "returnDate": "2025-09-15T10:35:32.844964",
+    "provider": "FlyFast",
+    "price": 620.54,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF389",
+        "dep": "DEL",
+        "arr": "SYD",
+        "duration": 660
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 12,
+      "price": 1723.32
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 169.05
+    }
+  },
+  {
+    "_id": "a722c16e87af6fdb606cc22a",
+    "from": "YVR",
+    "to": "SIN",
+    "departDate": "2025-05-30T10:35:32.845003",
+    "returnDate": "2025-06-17T10:35:32.845003",
+    "provider": "FlyFast",
+    "price": 479.72,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ697",
+        "dep": "YVR",
+        "arr": "SIN",
+        "duration": 240
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 359.28
+    }
+  },
+  {
+    "_id": "8025328706034c63f8b1f2a7",
+    "from": "MAD",
+    "to": "LAX",
+    "departDate": "2025-09-24T10:35:32.845039",
+    "returnDate": "2025-10-04T10:35:32.845039",
+    "provider": "SkyWings",
+    "price": 533.93,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL255",
+        "dep": "MAD",
+        "arr": "LAX",
+        "duration": 780
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 2,
+      "price": 1829.58
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 36.19
+    }
+  },
+  {
+    "_id": "8ec0c6ea876612a6664047a0",
+    "from": "NYC",
+    "to": "YVR",
+    "departDate": "2026-02-27T10:35:32.845078",
+    "returnDate": "2026-03-04T10:35:32.845078",
+    "provider": "AirZen",
+    "price": 811.41,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL606",
+        "dep": "NYC",
+        "arr": "YVR",
+        "duration": 240
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "1da7d2cd28707dad9db66d45",
+    "from": "AMS",
+    "to": "PAR",
+    "departDate": "2025-07-12T10:35:32.845110",
+    "returnDate": "2025-07-24T10:35:32.845110",
+    "provider": "JetStream",
+    "price": 2123.43,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL382",
+        "dep": "AMS",
+        "arr": "PAR",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 2,
+      "price": 426.78
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 322.84
+    }
+  },
+  {
+    "_id": "0de1bcc133e9f950d0621d7d",
+    "from": "DEL",
+    "to": "DXB",
+    "departDate": "2025-10-22T10:35:32.845147",
+    "returnDate": "2025-10-27T10:35:32.845147",
+    "provider": "SkyWings",
+    "price": 2026.73,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF921",
+        "dep": "DEL",
+        "arr": "DXB",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "87f586854b21b7b43cc3442c",
+    "from": "BKK",
+    "to": "IST",
+    "departDate": "2025-11-25T10:35:32.845179",
+    "returnDate": "2025-12-04T10:35:32.845179",
+    "provider": "SkyWings",
+    "price": 770.77,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL527",
+        "dep": "BKK",
+        "arr": "IST",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 67.68
+    }
+  },
+  {
+    "_id": "3ef08bdf8db7e6069052c2a4",
+    "from": "PAR",
+    "to": "SFO",
+    "departDate": "2025-06-18T10:35:32.845216",
+    "returnDate": "2025-06-24T10:35:32.845216",
+    "provider": "AirZen",
+    "price": 149.62,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ224",
+        "dep": "PAR",
+        "arr": "SFO",
+        "duration": 180
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "eba7269223ab8bb138eeb3c4",
+    "from": "ROM",
+    "to": "SAO",
+    "departDate": "2025-09-27T10:35:32.845246",
+    "returnDate": "2025-10-07T10:35:32.845246",
+    "provider": "SkyWings",
+    "price": 1679.62,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL207",
+        "dep": "ROM",
+        "arr": "SAO",
+        "duration": 840
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "d46653c170c67fb98eaee95d",
+    "from": "SYD",
+    "to": "ROM",
+    "departDate": "2025-10-11T10:35:32.845278",
+    "returnDate": "2025-10-30T10:35:32.845278",
+    "provider": "SkyWings",
+    "price": 1793.56,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA713",
+        "dep": "SYD",
+        "arr": "ROM",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 10,
+      "price": 1216.89
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 313.24
+    }
+  },
+  {
+    "_id": "1e0b756ffce62756eea4f1df",
+    "from": "JNB",
+    "to": "ROM",
+    "departDate": "2026-03-10T10:35:32.845315",
+    "returnDate": "2026-03-22T10:35:32.845315",
+    "provider": "AirZen",
+    "price": 2455.69,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF879",
+        "dep": "JNB",
+        "arr": "ROM",
+        "duration": 420
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "c5813cc6c093b0b030c4ece3",
+    "from": "SYD",
+    "to": "JNB",
+    "departDate": "2026-02-09T10:35:32.845347",
+    "returnDate": "2026-02-19T10:35:32.845347",
+    "provider": "GlobeTrotter",
+    "price": 1790.56,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK675",
+        "dep": "SYD",
+        "arr": "JNB",
+        "duration": 540
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 148.23
+    }
+  },
+  {
+    "_id": "54fbd7778b62d4473c1ca3a3",
+    "from": "SYD",
+    "to": "BER",
+    "departDate": "2026-03-08T10:35:32.845380",
+    "returnDate": "2026-03-19T10:35:32.845380",
+    "provider": "FlyFast",
+    "price": 200.91,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA792",
+        "dep": "SYD",
+        "arr": "BER",
+        "duration": 900
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 3,
+      "price": 1702.27
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 196.64
+    }
+  },
+  {
+    "_id": "c72be354e738cdfa83e5e237",
+    "from": "PAR",
+    "to": "BKK",
+    "departDate": "2025-07-28T10:35:32.845419",
+    "returnDate": "2025-08-08T10:35:32.845419",
+    "provider": "FlyFast",
+    "price": 541.59,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL942",
+        "dep": "PAR",
+        "arr": "BKK",
+        "duration": 60
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "20d6955af228335379b30fb9",
+    "from": "TYO",
+    "to": "SAO",
+    "departDate": "2025-10-24T10:35:32.845451",
+    "returnDate": "2025-11-13T10:35:32.845451",
+    "provider": "JetStream",
+    "price": 2130.81,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL803",
+        "dep": "TYO",
+        "arr": "SAO",
+        "duration": 900
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 8,
+      "price": 1498.08
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 195.37
+    }
+  },
+  {
+    "_id": "26737bdfae72a4d5c04b38b0",
+    "from": "NYC",
+    "to": "SAO",
+    "departDate": "2025-06-20T10:35:32.845488",
+    "returnDate": "2025-06-29T10:35:32.845488",
+    "provider": "FlyFast",
+    "price": 901.01,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH408",
+        "dep": "NYC",
+        "arr": "SAO",
+        "duration": 300
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 306.92
+    }
+  },
+  {
+    "_id": "76b5207bbeea0ae9b55dac81",
+    "from": "PAR",
+    "to": "NYC",
+    "departDate": "2025-10-02T10:35:32.845523",
+    "returnDate": "2025-10-18T10:35:32.845523",
+    "provider": "JetStream",
+    "price": 1265.11,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF850",
+        "dep": "PAR",
+        "arr": "NYC",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "b18d2f257e53de3681accc52",
+    "from": "IST",
+    "to": "YVR",
+    "departDate": "2025-12-04T10:35:32.845550",
+    "returnDate": "2025-12-17T10:35:32.845550",
+    "provider": "AirZen",
+    "price": 2436.0,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "EK598",
+        "dep": "IST",
+        "arr": "YVR",
+        "duration": 240
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "46cc74d02fc324e907de61e6",
+    "from": "SAO",
+    "to": "LON",
+    "departDate": "2025-10-12T10:35:32.845577",
+    "returnDate": "2025-10-17T10:35:32.845577",
+    "provider": "GlobeTrotter",
+    "price": 2151.29,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "EK934",
+        "dep": "SAO",
+        "arr": "LON",
+        "duration": 120
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 3,
+      "price": 1106.56
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 44.88
+    }
+  },
+  {
+    "_id": "608188d3801b3705fb52ff03",
+    "from": "DXB",
+    "to": "NYC",
+    "departDate": "2025-06-07T10:35:32.845609",
+    "returnDate": "2025-06-17T10:35:32.845609",
+    "provider": "AirZen",
+    "price": 1230.67,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH431",
+        "dep": "DXB",
+        "arr": "NYC",
+        "duration": 720
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 10,
+      "price": 1335.68
+    },
+    "activity": null
+  },
+  {
+    "_id": "b198984e97eaa03deb3d5796",
+    "from": "YVR",
+    "to": "LAX",
+    "departDate": "2026-04-10T10:35:32.845638",
+    "returnDate": "2026-04-26T10:35:32.845638",
+    "provider": "FlyFast",
+    "price": 2132.29,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL955",
+        "dep": "YVR",
+        "arr": "LAX",
+        "duration": 60
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 4,
+      "price": 819.82
+    },
+    "activity": null
+  },
+  {
+    "_id": "06d3f2ae82c21a5a0b7fe26f",
+    "from": "MEX",
+    "to": "AMS",
+    "departDate": "2025-08-28T10:35:32.845669",
+    "returnDate": "2025-09-02T10:35:32.845669",
+    "provider": "GlobeTrotter",
+    "price": 624.21,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ955",
+        "dep": "MEX",
+        "arr": "AMS",
+        "duration": 660
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 3,
+      "price": 329.34
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 189.13
+    }
+  },
+  {
+    "_id": "1379ebe870d72e47c58eb3fe",
+    "from": "LON",
+    "to": "NYC",
+    "departDate": "2025-07-09T10:35:32.845718",
+    "returnDate": "2025-07-22T10:35:32.845718",
+    "provider": "JetStream",
+    "price": 1966.54,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF689",
+        "dep": "LON",
+        "arr": "NYC",
+        "duration": 720
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "d58aff033b5059994e9b4152",
+    "from": "ROM",
+    "to": "MEX",
+    "departDate": "2026-03-24T10:35:32.845744",
+    "returnDate": "2026-04-04T10:35:32.845744",
+    "provider": "JetStream",
+    "price": 332.89,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA254",
+        "dep": "ROM",
+        "arr": "MEX",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 4,
+      "price": 550.84
+    },
+    "activity": null
+  },
+  {
+    "_id": "45d9d7b11dc129bbbc018f9c",
+    "from": "TYO",
+    "to": "NYC",
+    "departDate": "2025-10-10T10:35:32.845774",
+    "returnDate": "2025-10-20T10:35:32.845774",
+    "provider": "JetStream",
+    "price": 1661.59,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH408",
+        "dep": "TYO",
+        "arr": "NYC",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 5,
+      "price": 1636.3
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 270.21
+    }
+  },
+  {
+    "_id": "44c9921885d50fb62d96bee4",
+    "from": "TYO",
+    "to": "SAO",
+    "departDate": "2025-10-02T10:35:32.845812",
+    "returnDate": "2025-10-09T10:35:32.845812",
+    "provider": "GlobeTrotter",
+    "price": 1238.17,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL470",
+        "dep": "TYO",
+        "arr": "SAO",
+        "duration": 420
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "c4b5cca864da7d21b4ad6905",
+    "from": "DXB",
+    "to": "MAD",
+    "departDate": "2025-09-19T10:35:32.845843",
+    "returnDate": "2025-10-01T10:35:32.845843",
+    "provider": "GlobeTrotter",
+    "price": 256.56,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH328",
+        "dep": "DXB",
+        "arr": "MAD",
+        "duration": 240
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 385.22
+    }
+  },
+  {
+    "_id": "055d0c54496af1dcc20269fa",
+    "from": "ROM",
+    "to": "SIN",
+    "departDate": "2025-12-14T10:35:32.845877",
+    "returnDate": "2026-01-02T10:35:32.845877",
+    "provider": "GlobeTrotter",
+    "price": 2130.81,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ905",
+        "dep": "ROM",
+        "arr": "SIN",
+        "duration": 360
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "3a075e089acca6fd9f8a9044",
+    "from": "SIN",
+    "to": "ROM",
+    "departDate": "2025-12-16T10:35:32.845905",
+    "returnDate": "2025-12-22T10:35:32.845905",
+    "provider": "AirZen",
+    "price": 642.82,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK543",
+        "dep": "SIN",
+        "arr": "ROM",
+        "duration": 240
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "555ae491bc889ba05de1f0fc",
+    "from": "SAO",
+    "to": "SIN",
+    "departDate": "2026-03-05T10:35:32.845932",
+    "returnDate": "2026-03-09T10:35:32.845932",
+    "provider": "AirZen",
+    "price": 1881.12,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA990",
+        "dep": "SAO",
+        "arr": "SIN",
+        "duration": 60
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 12,
+      "price": 250.74
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 33.88
+    }
+  },
+  {
+    "_id": "4744b3cfb6ce717dc6c5aa31",
+    "from": "SYD",
+    "to": "TYO",
+    "departDate": "2026-04-19T10:35:32.845962",
+    "returnDate": "2026-05-08T10:35:32.845962",
+    "provider": "SkyWings",
+    "price": 1628.32,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK633",
+        "dep": "SYD",
+        "arr": "TYO",
+        "duration": 780
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 103.07
+    }
+  },
+  {
+    "_id": "ae1d40a0b5dd55586c00ab3a",
+    "from": "ROM",
+    "to": "JNB",
+    "departDate": "2026-04-22T10:35:32.845990",
+    "returnDate": "2026-05-10T10:35:32.845990",
+    "provider": "GlobeTrotter",
+    "price": 1622.88,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF461",
+        "dep": "ROM",
+        "arr": "JNB",
+        "duration": 300
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "3c8b1b3568c16b442017d047",
+    "from": "DEL",
+    "to": "LON",
+    "departDate": "2025-11-24T10:35:32.846016",
+    "returnDate": "2025-12-05T10:35:32.846016",
+    "provider": "FlyFast",
+    "price": 357.32,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "EK588",
+        "dep": "DEL",
+        "arr": "LON",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "764ec71ca31d11ffee6330b8",
+    "from": "DEL",
+    "to": "BER",
+    "departDate": "2025-11-20T10:35:32.846044",
+    "returnDate": "2025-12-08T10:35:32.846044",
+    "provider": "AirZen",
+    "price": 1040.01,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "EK349",
+        "dep": "DEL",
+        "arr": "BER",
+        "duration": 540
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "d7a0790198614f52620bf710",
+    "from": "YVR",
+    "to": "SAO",
+    "departDate": "2026-04-17T10:35:32.846071",
+    "returnDate": "2026-05-01T10:35:32.846071",
+    "provider": "SkyWings",
+    "price": 1386.39,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "EK908",
+        "dep": "YVR",
+        "arr": "SAO",
+        "duration": 840
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 6,
+      "price": 363.71
+    },
+    "activity": null
+  },
+  {
+    "_id": "9e8fb75ef317852be2803f89",
+    "from": "TYO",
+    "to": "DXB",
+    "departDate": "2026-03-05T10:35:32.846102",
+    "returnDate": "2026-03-23T10:35:32.846102",
+    "provider": "SkyWings",
+    "price": 1309.29,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH663",
+        "dep": "TYO",
+        "arr": "DXB",
+        "duration": 900
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 9,
+      "price": 1708.26
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 120.33
+    }
+  },
+  {
+    "_id": "7b53f1f17a0c0a155055b7c6",
+    "from": "ROM",
+    "to": "IST",
+    "departDate": "2025-10-08T10:35:32.846133",
+    "returnDate": "2025-10-18T10:35:32.846133",
+    "provider": "AirZen",
+    "price": 2178.48,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL273",
+        "dep": "ROM",
+        "arr": "IST",
+        "duration": 120
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "da8047a53b240d19187937e3",
+    "from": "NYC",
+    "to": "LON",
+    "departDate": "2025-12-11T10:35:32.846164",
+    "returnDate": "2025-12-28T10:35:32.846164",
+    "provider": "FlyFast",
+    "price": 178.51,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA399",
+        "dep": "NYC",
+        "arr": "LON",
+        "duration": 120
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 3,
+      "price": 1680.67
+    },
+    "activity": null
+  },
+  {
+    "_id": "bc69fb6d826716d164c33527",
+    "from": "JNB",
+    "to": "SFO",
+    "departDate": "2025-08-13T10:35:32.846198",
+    "returnDate": "2025-08-22T10:35:32.846198",
+    "provider": "JetStream",
+    "price": 159.46,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ520",
+        "dep": "JNB",
+        "arr": "SFO",
+        "duration": 60
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 217.7
+    }
+  },
+  {
+    "_id": "3aa74965c7ea7d5f16704dbf",
+    "from": "TYO",
+    "to": "SFO",
+    "departDate": "2026-04-11T10:35:32.846232",
+    "returnDate": "2026-04-27T10:35:32.846232",
+    "provider": "GlobeTrotter",
+    "price": 2393.45,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH533",
+        "dep": "TYO",
+        "arr": "SFO",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "City Tour",
+      "price": 261.37
+    }
+  },
+  {
+    "_id": "7e592ada9ad58cd84b4bf654",
+    "from": "SAO",
+    "to": "ROM",
+    "departDate": "2025-05-01T10:35:32.846261",
+    "returnDate": "2025-05-14T10:35:32.846261",
+    "provider": "SkyWings",
+    "price": 1543.04,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ362",
+        "dep": "SAO",
+        "arr": "ROM",
+        "duration": 720
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 2,
+      "price": 1525.1
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 259.48
+    }
+  },
+  {
+    "_id": "d846df308a76d9e7f62c5cd4",
+    "from": "NYC",
+    "to": "BKK",
+    "departDate": "2025-06-22T10:35:32.846292",
+    "returnDate": "2025-07-10T10:35:32.846292",
+    "provider": "SkyWings",
+    "price": 1422.15,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH888",
+        "dep": "NYC",
+        "arr": "BKK",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 8,
+      "price": 1100.83
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 345.39
+    }
+  },
+  {
+    "_id": "adaf486cab5237edf097e8b4",
+    "from": "PAR",
+    "to": "TYO",
+    "departDate": "2025-10-21T10:35:32.846326",
+    "returnDate": "2025-10-29T10:35:32.846326",
+    "provider": "AirZen",
+    "price": 928.24,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK399",
+        "dep": "PAR",
+        "arr": "TYO",
+        "duration": 480
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 4,
+      "price": 781.83
+    },
+    "activity": null
+  },
+  {
+    "_id": "7a922b0500d0666ca419b6b1",
+    "from": "BER",
+    "to": "DEL",
+    "departDate": "2025-09-07T10:35:32.846356",
+    "returnDate": "2025-09-10T10:35:32.846356",
+    "provider": "FlyFast",
+    "price": 1777.2,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL827",
+        "dep": "BER",
+        "arr": "DEL",
+        "duration": 540
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "2fd23ea0c4090302303783ef",
+    "from": "LAX",
+    "to": "SAO",
+    "departDate": "2026-04-12T10:35:32.846382",
+    "returnDate": "2026-04-26T10:35:32.846382",
+    "provider": "SkyWings",
+    "price": 542.89,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA781",
+        "dep": "LAX",
+        "arr": "SAO",
+        "duration": 360
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 11,
+      "price": 700.2
+    },
+    "activity": null
+  },
+  {
+    "_id": "4ccebd6cb3371cbc653cef16",
+    "from": "LON",
+    "to": "SIN",
+    "departDate": "2026-03-30T10:35:32.846411",
+    "returnDate": "2026-04-12T10:35:32.846411",
+    "provider": "SkyWings",
+    "price": 1086.66,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ429",
+        "dep": "LON",
+        "arr": "SIN",
+        "duration": 240
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 183.36
+    }
+  },
+  {
+    "_id": "c679766475166fe27b1f1ffb",
+    "from": "AMS",
+    "to": "LAX",
+    "departDate": "2025-06-12T10:35:32.846440",
+    "returnDate": "2025-06-26T10:35:32.846440",
+    "provider": "GlobeTrotter",
+    "price": 1365.61,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA138",
+        "dep": "AMS",
+        "arr": "LAX",
+        "duration": 780
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 371.07
+    }
+  },
+  {
+    "_id": "0f36c2392e2c5706a9328970",
+    "from": "SIN",
+    "to": "ROM",
+    "departDate": "2025-12-07T10:35:32.846469",
+    "returnDate": "2025-12-13T10:35:32.846469",
+    "provider": "AirZen",
+    "price": 1017.18,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF890",
+        "dep": "SIN",
+        "arr": "ROM",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 11,
+      "price": 655.29
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 288.45
+    }
+  },
+  {
+    "_id": "1ee6316c770af6dccc336213",
+    "from": "SYD",
+    "to": "SFO",
+    "departDate": "2026-01-27T10:35:32.846502",
+    "returnDate": "2026-02-04T10:35:32.846502",
+    "provider": "GlobeTrotter",
+    "price": 2166.47,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ300",
+        "dep": "SYD",
+        "arr": "SFO",
+        "duration": 480
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 10,
+      "price": 585.23
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 76.14
+    }
+  },
+  {
+    "_id": "609f55ba58684f432a3dcd23",
+    "from": "SIN",
+    "to": "SYD",
+    "departDate": "2025-06-03T10:35:32.846544",
+    "returnDate": "2025-06-16T10:35:32.846544",
+    "provider": "FlyFast",
+    "price": 1415.01,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA450",
+        "dep": "SIN",
+        "arr": "SYD",
+        "duration": 840
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "80b4af79f8e20af3712c425a",
+    "from": "MEX",
+    "to": "BKK",
+    "departDate": "2025-10-21T10:35:32.846574",
+    "returnDate": "2025-10-24T10:35:32.846574",
+    "provider": "GlobeTrotter",
+    "price": 2356.93,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH430",
+        "dep": "MEX",
+        "arr": "BKK",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 3,
+      "price": 1560.38
+    },
+    "activity": null
+  },
+  {
+    "_id": "3a8eed56d65e48c898868269",
+    "from": "BER",
+    "to": "YVR",
+    "departDate": "2025-08-14T10:35:32.846604",
+    "returnDate": "2025-08-23T10:35:32.846604",
+    "provider": "GlobeTrotter",
+    "price": 166.38,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH602",
+        "dep": "BER",
+        "arr": "YVR",
+        "duration": 780
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "eddccebebb11fed10838a691",
+    "from": "SAO",
+    "to": "YVR",
+    "departDate": "2025-09-19T10:35:32.846653",
+    "returnDate": "2025-10-03T10:35:32.846653",
+    "provider": "GlobeTrotter",
+    "price": 663.95,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF842",
+        "dep": "SAO",
+        "arr": "YVR",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Sunrise",
+      "nights": 8,
+      "price": 1360.15
+    },
+    "activity": null
+  },
+  {
+    "_id": "f75845cfe042dcae5372e0a1",
+    "from": "ROM",
+    "to": "AMS",
+    "departDate": "2025-12-27T10:35:32.846683",
+    "returnDate": "2026-01-09T10:35:32.846683",
+    "provider": "JetStream",
+    "price": 1465.56,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA490",
+        "dep": "ROM",
+        "arr": "AMS",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 133.79
+    }
+  },
+  {
+    "_id": "8ff44550a47c6d51b239f036",
+    "from": "MAD",
+    "to": "BKK",
+    "departDate": "2025-09-23T10:35:32.846711",
+    "returnDate": "2025-10-10T10:35:32.846711",
+    "provider": "FlyFast",
+    "price": 1635.11,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA303",
+        "dep": "MAD",
+        "arr": "BKK",
+        "duration": 60
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 386.6
+    }
+  },
+  {
+    "_id": "f1dddcbe30e633cd581daa63",
+    "from": "BER",
+    "to": "NYC",
+    "departDate": "2025-11-08T10:35:32.846739",
+    "returnDate": "2025-11-26T10:35:32.846739",
+    "provider": "FlyFast",
+    "price": 619.19,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "BA937",
+        "dep": "BER",
+        "arr": "NYC",
+        "duration": 780
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 317.82
+    }
+  },
+  {
+    "_id": "a98ac6d9e689a7665d689658",
+    "from": "SAO",
+    "to": "PAR",
+    "departDate": "2025-09-28T10:35:32.846767",
+    "returnDate": "2025-10-03T10:35:32.846767",
+    "provider": "GlobeTrotter",
+    "price": 2472.46,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA756",
+        "dep": "SAO",
+        "arr": "PAR",
+        "duration": 720
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 6,
+      "price": 621.87
+    },
+    "activity": null
+  },
+  {
+    "_id": "fe14e80c624c3423ac207e8d",
+    "from": "LAX",
+    "to": "LON",
+    "departDate": "2025-05-13T10:35:32.846796",
+    "returnDate": "2025-05-26T10:35:32.846796",
+    "provider": "FlyFast",
+    "price": 851.36,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL415",
+        "dep": "LAX",
+        "arr": "LON",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "b68a4d28953a82555345fc12",
+    "from": "DEL",
+    "to": "PAR",
+    "departDate": "2025-09-21T10:35:32.846823",
+    "returnDate": "2025-10-10T10:35:32.846823",
+    "provider": "JetStream",
+    "price": 1820.69,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH298",
+        "dep": "DEL",
+        "arr": "PAR",
+        "duration": 780
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 11,
+      "price": 1754.37
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 344.68
+    }
+  },
+  {
+    "_id": "8c1fc404355181b369c176c4",
+    "from": "LON",
+    "to": "BKK",
+    "departDate": "2025-05-18T10:35:32.846854",
+    "returnDate": "2025-06-01T10:35:32.846854",
+    "provider": "AirZen",
+    "price": 1652.25,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA895",
+        "dep": "LON",
+        "arr": "BKK",
+        "duration": 120
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 9,
+      "price": 538.93
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 278.89
+    }
+  },
+  {
+    "_id": "3603a2e8b3d8455e26589682",
+    "from": "SYD",
+    "to": "SAO",
+    "departDate": "2026-03-08T10:35:32.846894",
+    "returnDate": "2026-03-20T10:35:32.846894",
+    "provider": "FlyFast",
+    "price": 2453.14,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF363",
+        "dep": "SYD",
+        "arr": "SAO",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 125.11
+    }
+  },
+  {
+    "_id": "2fc450b69e4f92e07e59069c",
+    "from": "BER",
+    "to": "ROM",
+    "departDate": "2026-02-23T10:35:32.846929",
+    "returnDate": "2026-03-05T10:35:32.846929",
+    "provider": "AirZen",
+    "price": 1457.19,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "DL975",
+        "dep": "BER",
+        "arr": "ROM",
+        "duration": 60
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 10,
+      "price": 924.59
+    },
+    "activity": null
+  },
+  {
+    "_id": "5c8567ed466e54eb6e13c339",
+    "from": "SYD",
+    "to": "SAO",
+    "departDate": "2025-06-10T10:35:32.846961",
+    "returnDate": "2025-06-18T10:35:32.846961",
+    "provider": "SkyWings",
+    "price": 122.41,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF449",
+        "dep": "SYD",
+        "arr": "SAO",
+        "duration": 120
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 10,
+      "price": 1706.17
+    },
+    "activity": null
+  },
+  {
+    "_id": "07304ec84288de22c78db8ea",
+    "from": "SAO",
+    "to": "DEL",
+    "departDate": "2025-11-21T10:35:32.846991",
+    "returnDate": "2025-12-02T10:35:32.846991",
+    "provider": "JetStream",
+    "price": 590.57,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA191",
+        "dep": "SAO",
+        "arr": "DEL",
+        "duration": 540
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 12,
+      "price": 765.76
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 113.35
+    }
+  },
+  {
+    "_id": "abe19dc4bd97bf8990e85cd5",
+    "from": "IST",
+    "to": "JNB",
+    "departDate": "2026-01-27T10:35:32.847022",
+    "returnDate": "2026-02-02T10:35:32.847022",
+    "provider": "GlobeTrotter",
+    "price": 1154.38,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH481",
+        "dep": "IST",
+        "arr": "JNB",
+        "duration": 360
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 10,
+      "price": 1412.04
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 359.01
+    }
+  },
+  {
+    "_id": "f4055ff7a193e24b283e7050",
+    "from": "IST",
+    "to": "MEX",
+    "departDate": "2025-09-02T10:35:32.847055",
+    "returnDate": "2025-09-18T10:35:32.847055",
+    "provider": "GlobeTrotter",
+    "price": 1394.07,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF330",
+        "dep": "IST",
+        "arr": "MEX",
+        "duration": 660
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "0038333f30ee62060a3439b4",
+    "from": "DEL",
+    "to": "NYC",
+    "departDate": "2026-01-14T10:35:32.847081",
+    "returnDate": "2026-02-03T10:35:32.847081",
+    "provider": "FlyFast",
+    "price": 1534.25,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK137",
+        "dep": "DEL",
+        "arr": "NYC",
+        "duration": 600
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 12,
+      "price": 532.14
+    },
+    "activity": {
+      "title": "Concert Ticket",
+      "price": 51.1
+    }
+  },
+  {
+    "_id": "e3a3e57b89090a888f58a7f8",
+    "from": "LON",
+    "to": "BKK",
+    "departDate": "2025-07-13T10:35:32.847115",
+    "returnDate": "2025-08-02T10:35:32.847115",
+    "provider": "GlobeTrotter",
+    "price": 2099.17,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "EK794",
+        "dep": "LON",
+        "arr": "BKK",
+        "duration": 900
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "e763d2e2ee6944e1517e7e1e",
+    "from": "DEL",
+    "to": "SFO",
+    "departDate": "2025-08-18T10:35:32.847141",
+    "returnDate": "2025-09-01T10:35:32.847141",
+    "provider": "JetStream",
+    "price": 569.44,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "EK435",
+        "dep": "DEL",
+        "arr": "SFO",
+        "duration": 900
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 209.01
+    }
+  },
+  {
+    "_id": "d7b0f064e5ef9fabebd2013b",
+    "from": "AMS",
+    "to": "LON",
+    "departDate": "2025-11-22T10:35:32.847177",
+    "returnDate": "2025-12-02T10:35:32.847177",
+    "provider": "FlyFast",
+    "price": 1226.46,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH792",
+        "dep": "AMS",
+        "arr": "LON",
+        "duration": 720
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 3,
+      "price": 523.26
+    },
+    "activity": {
+      "title": "Museum Pass",
+      "price": 351.11
+    }
+  },
+  {
+    "_id": "4271cb49198550999151dd0b",
+    "from": "MEX",
+    "to": "SAO",
+    "departDate": "2025-06-29T10:35:32.847209",
+    "returnDate": "2025-07-07T10:35:32.847209",
+    "provider": "FlyFast",
+    "price": 2211.45,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA697",
+        "dep": "MEX",
+        "arr": "SAO",
+        "duration": 300
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 252.94
+    }
+  },
+  {
+    "_id": "0ba3f8902f719f6b3d79718e",
+    "from": "NYC",
+    "to": "BKK",
+    "departDate": "2025-09-19T10:35:32.847469",
+    "returnDate": "2025-09-29T10:35:32.847469",
+    "provider": "AirZen",
+    "price": 2143.9,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH818",
+        "dep": "NYC",
+        "arr": "BKK",
+        "duration": 360
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 10,
+      "price": 622.21
+    },
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 281.41
+    }
+  },
+  {
+    "_id": "33ab7deb8e3d8da165be6f89",
+    "from": "MEX",
+    "to": "AMS",
+    "departDate": "2026-01-24T10:35:32.847522",
+    "returnDate": "2026-02-13T10:35:32.847522",
+    "provider": "AirZen",
+    "price": 639.22,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH720",
+        "dep": "MEX",
+        "arr": "AMS",
+        "duration": 840
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 6,
+      "price": 574.0
+    },
+    "activity": null
+  },
+  {
+    "_id": "070c978400fb88149e3765fe",
+    "from": "LAX",
+    "to": "BKK",
+    "departDate": "2025-05-29T10:35:32.847548",
+    "returnDate": "2025-06-18T10:35:32.847548",
+    "provider": "AirZen",
+    "price": 1590.24,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF378",
+        "dep": "LAX",
+        "arr": "BKK",
+        "duration": 240
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 6,
+      "price": 1971.46
+    },
+    "activity": null
+  },
+  {
+    "_id": "845e4f523b2eb751e8f19959",
+    "from": "AMS",
+    "to": "SYD",
+    "departDate": "2025-08-18T10:35:32.847568",
+    "returnDate": "2025-08-29T10:35:32.847568",
+    "provider": "GlobeTrotter",
+    "price": 2244.72,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "AF844",
+        "dep": "AMS",
+        "arr": "SYD",
+        "duration": 60
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 290.93
+    }
+  },
+  {
+    "_id": "963aee1adbf77d0eefb26460",
+    "from": "BKK",
+    "to": "DXB",
+    "departDate": "2026-02-15T10:35:32.847588",
+    "returnDate": "2026-02-22T10:35:32.847588",
+    "provider": "JetStream",
+    "price": 1673.55,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ562",
+        "dep": "BKK",
+        "arr": "DXB",
+        "duration": 600
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Theme Park",
+      "price": 119.13
+    }
+  },
+  {
+    "_id": "b97f94dc46b527ba11747502",
+    "from": "TYO",
+    "to": "PAR",
+    "departDate": "2025-07-08T10:35:32.847608",
+    "returnDate": "2025-07-28T10:35:32.847608",
+    "provider": "SkyWings",
+    "price": 1324.01,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ555",
+        "dep": "TYO",
+        "arr": "PAR",
+        "duration": 900
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 4,
+      "price": 1775.55
+    },
+    "activity": null
+  },
+  {
+    "_id": "3e70311e4d628ab3a55868ea",
+    "from": "MAD",
+    "to": "SAO",
+    "departDate": "2025-10-04T10:35:32.847628",
+    "returnDate": "2025-10-08T10:35:32.847628",
+    "provider": "JetStream",
+    "price": 839.11,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL443",
+        "dep": "MAD",
+        "arr": "SAO",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 384.4
+    }
+  },
+  {
+    "_id": "dbc8b741a60520b19fb780b8",
+    "from": "NYC",
+    "to": "LON",
+    "departDate": "2025-06-02T10:35:32.847648",
+    "returnDate": "2025-06-16T10:35:32.847648",
+    "provider": "FlyFast",
+    "price": 808.56,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK278",
+        "dep": "NYC",
+        "arr": "LON",
+        "duration": 360
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 89.19
+    }
+  },
+  {
+    "_id": "3b1e2ad49d905ddba5bbc2cb",
+    "from": "SFO",
+    "to": "PAR",
+    "departDate": "2025-09-01T10:35:32.847682",
+    "returnDate": "2025-09-04T10:35:32.847682",
+    "provider": "JetStream",
+    "price": 1305.31,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "BA955",
+        "dep": "SFO",
+        "arr": "PAR",
+        "duration": 60
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "5a8ec37f15b3db2fd8815b84",
+    "from": "DXB",
+    "to": "BER",
+    "departDate": "2026-03-17T10:35:32.847707",
+    "returnDate": "2026-03-31T10:35:32.847707",
+    "provider": "SkyWings",
+    "price": 2218.06,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "AF372",
+        "dep": "DXB",
+        "arr": "BER",
+        "duration": 360
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 7,
+      "price": 937.3
+    },
+    "activity": {
+      "title": "City Tour",
+      "price": 312.62
+    }
+  },
+  {
+    "_id": "ec13ae4602fec9a06ef4bc36",
+    "from": "DXB",
+    "to": "LAX",
+    "departDate": "2025-11-08T10:35:32.847731",
+    "returnDate": "2025-11-25T10:35:32.847731",
+    "provider": "JetStream",
+    "price": 1353.9,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "EK315",
+        "dep": "DXB",
+        "arr": "LAX",
+        "duration": 900
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Garden",
+      "nights": 2,
+      "price": 525.04
+    },
+    "activity": null
+  },
+  {
+    "_id": "f8bd3e48d4fd7695f49bedcb",
+    "from": "JNB",
+    "to": "MAD",
+    "departDate": "2025-06-20T10:35:32.847750",
+    "returnDate": "2025-07-07T10:35:32.847750",
+    "provider": "FlyFast",
+    "price": 676.3,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "LH222",
+        "dep": "JNB",
+        "arr": "MAD",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 2,
+      "price": 1471.62
+    },
+    "activity": null
+  },
+  {
+    "_id": "ded8e115193bd9f358cb6511",
+    "from": "MEX",
+    "to": "PAR",
+    "departDate": "2026-01-15T10:35:32.847779",
+    "returnDate": "2026-01-19T10:35:32.847779",
+    "provider": "JetStream",
+    "price": 1110.49,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "DL140",
+        "dep": "MEX",
+        "arr": "PAR",
+        "duration": 180
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "8cf66482c2d5d74b7f744d35",
+    "from": "NYC",
+    "to": "LON",
+    "departDate": "2026-03-02T10:35:32.847805",
+    "returnDate": "2026-03-06T10:35:32.847805",
+    "provider": "JetStream",
+    "price": 1617.03,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "SQ899",
+        "dep": "NYC",
+        "arr": "LON",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Vista",
+      "nights": 6,
+      "price": 1735.94
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 182.68
+    }
+  },
+  {
+    "_id": "ab2420bd5ae7dfae97a9d965",
+    "from": "AMS",
+    "to": "SAO",
+    "departDate": "2025-10-30T10:35:32.847830",
+    "returnDate": "2025-11-04T10:35:32.847830",
+    "provider": "SkyWings",
+    "price": 1551.08,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "DL258",
+        "dep": "AMS",
+        "arr": "SAO",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Oasis",
+      "nights": 12,
+      "price": 294.82
+    },
+    "activity": null
+  },
+  {
+    "_id": "daadb0039c8db5d09e6678bc",
+    "from": "MEX",
+    "to": "LON",
+    "departDate": "2025-09-23T10:35:32.847882",
+    "returnDate": "2025-10-08T10:35:32.847882",
+    "provider": "FlyFast",
+    "price": 421.31,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "BA420",
+        "dep": "MEX",
+        "arr": "LON",
+        "duration": 360
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 6,
+      "price": 288.56
+    },
+    "activity": {
+      "title": "Theme Park",
+      "price": 201.25
+    }
+  },
+  {
+    "_id": "6e1affd2928158fbcc8093c5",
+    "from": "TYO",
+    "to": "BER",
+    "departDate": "2025-12-08T10:35:32.847916",
+    "returnDate": "2025-12-24T10:35:32.847916",
+    "provider": "SkyWings",
+    "price": 1726.36,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF986",
+        "dep": "TYO",
+        "arr": "BER",
+        "duration": 360
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 180.84
+    }
+  },
+  {
+    "_id": "3dd756c3f80a584571032d6f",
+    "from": "MEX",
+    "to": "IST",
+    "departDate": "2025-12-16T10:35:32.847957",
+    "returnDate": "2025-12-24T10:35:32.847957",
+    "provider": "GlobeTrotter",
+    "price": 259.67,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "LH448",
+        "dep": "MEX",
+        "arr": "IST",
+        "duration": 420
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Palace",
+      "nights": 7,
+      "price": 163.48
+    },
+    "activity": null
+  },
+  {
+    "_id": "2b777adf5cc0774dcca3a961",
+    "from": "SIN",
+    "to": "AMS",
+    "departDate": "2026-02-23T10:35:32.847977",
+    "returnDate": "2026-03-07T10:35:32.847977",
+    "provider": "JetStream",
+    "price": 1298.12,
+    "currency": "EUR",
+    "legs": [
+      {
+        "flightNum": "LH116",
+        "dep": "SIN",
+        "arr": "AMS",
+        "duration": 900
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Museum Pass",
+      "price": 174.65
+    }
+  },
+  {
+    "_id": "02b3406dab2bf347bbbb13df",
+    "from": "BKK",
+    "to": "LAX",
+    "departDate": "2025-09-12T10:35:32.847995",
+    "returnDate": "2025-09-24T10:35:32.847995",
+    "provider": "FlyFast",
+    "price": 1308.12,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "AF892",
+        "dep": "BKK",
+        "arr": "LAX",
+        "duration": 480
+      }
+    ],
+    "hotel": null,
+    "activity": {
+      "title": "Wine Tasting",
+      "price": 292.97
+    }
+  },
+  {
+    "_id": "49aedc9907da568f28d661b7",
+    "from": "AMS",
+    "to": "MAD",
+    "departDate": "2026-03-23T10:35:32.848014",
+    "returnDate": "2026-03-28T10:35:32.848014",
+    "provider": "SkyWings",
+    "price": 2181.48,
+    "currency": "GBP",
+    "legs": [
+      {
+        "flightNum": "SQ676",
+        "dep": "AMS",
+        "arr": "MAD",
+        "duration": 180
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Coral",
+      "nights": 2,
+      "price": 1714.5
+    },
+    "activity": null
+  },
+  {
+    "_id": "68113565c0d397f3769ce957",
+    "from": "DXB",
+    "to": "YVR",
+    "departDate": "2026-01-12T10:35:32.836247",
+    "returnDate": "2026-01-24T10:35:32.836247",
+    "provider": "FlyFast",
+    "price": 876.41,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ799",
+        "dep": "DXB",
+        "arr": "YVR",
+        "duration": 600
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "68113576c0d397f3769ce958",
+    "from": "DXB",
+    "to": "MEX",
+    "departDate": "2026-01-12T10:35:32.836247",
+    "returnDate": "2026-01-24T10:35:32.836247",
+    "provider": "JetStream",
+    "price": 876.41,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ799",
+        "dep": "DXB",
+        "arr": "MEX",
+        "duration": 600
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  },
+  {
+    "_id": "68113584c0d397f3769ce959",
+    "from": "DXB",
+    "to": "LAX",
+    "departDate": "2026-01-12T10:35:32.836247",
+    "returnDate": "2026-01-24T10:35:32.836247",
+    "provider": "GlobeTrotter",
+    "price": 876.41,
+    "currency": "USD",
+    "legs": [
+      {
+        "flightNum": "SQ799",
+        "dep": "DXB",
+        "arr": "LAX",
+        "duration": 600
+      }
+    ],
+    "hotel": null,
+    "activity": null
+  }
+]
