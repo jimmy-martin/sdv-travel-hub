@@ -1,8 +1,11 @@
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
+import { cors } from "hono/cors";
 import { getNewOffersLogs, subscribeToOffers } from "./redis.js";
 
 const app = new Hono();
+
+app.use(cors());
 
 app.get("/logs/offers-new", (c) => {
 	return c.json({ logs: getNewOffersLogs() });
