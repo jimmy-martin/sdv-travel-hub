@@ -1,5 +1,9 @@
 import { Hono } from "hono";
 import {
+	offerCacheHistogram,
+	offersCacheHistogram,
+} from "../metrics/histogram/cache-histogram.js";
+import {
 	type CreateOfferParams,
 	createOffer,
 	getOffer,
@@ -10,6 +14,7 @@ const routes = new Hono();
 
 routes.get("/", async (c) => {
 	const { from, to, limit, q } = c.req.query();
+	const start = offersCacheHistogram.startTimer({ route: c.req.path });
 
 	const offers = await getOffers({
 		from,
@@ -18,22 +23,28 @@ routes.get("/", async (c) => {
 		searchTerm: q,
 	});
 
+	start();
+
 	return c.json({ data: offers });
 });
 
 routes.get("/:id", async (c) => {
 	const { id } = c.req.param();
 
+	const start = offerCacheHistogram.startTimer({ id });
+
 	const offer = await getOffer(id);
+
+	start();
 
 	return c.json({ data: offer });
 });
 
 routes.post("/", async (c) => {
 	const params: CreateOfferParams = await c.req.json();
-	const offer = await createOffer(params);
+	const insertedId = await createOffer(params);
 
-	return c.json({ data: offer }, 201);
+	return c.json({ data: { _id: insertedId, ...params } }, 201);
 });
 
 export default routes;

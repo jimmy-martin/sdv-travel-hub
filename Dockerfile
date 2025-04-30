@@ -6,4 +6,5 @@ RUN npm install
 COPY . .
 ENV NODE_ENV=development
 EXPOSE 3000
+EXPOSE 4000
 CMD ["npm", "run", "dev"]

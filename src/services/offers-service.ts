@@ -1,8 +1,16 @@
 import { BSON, ObjectId } from "mongodb";
 import getDb from "../instances/mongo.js";
 import { getNeo4jSession } from "../instances/neo4j.js";
-import { getCache, publish, setCache } from "./redis-service.js";
+import {
+	offerCacheHitCounter,
+	offersCacheHitCounter,
+} from "../metrics/counters/cache-hit-counter.js";
+import {
+	offerCacheMissCounter,
+	offersCacheMissCounter,
+} from "../metrics/counters/cache-miss-counter.js";
 import { getRecommendations } from "./recommendation-service.js";
+import { getCache, publish, setCache } from "./redis-service.js";
 
 type GetOffersParams = {
 	from: string;
@@ -61,7 +69,7 @@ const getOffers = async ({
 
 	const cache = await getCache(key);
 	if (cache) {
-		console.log("Cache hit");
+		offersCacheHitCounter.inc();
 		return JSON.parse(cache);
 	}
 
@@ -91,16 +99,18 @@ const getOffers = async ({
 		ttl: 60,
 	});
 
+	offersCacheMissCounter.inc();
+
 	return offers;
 };
 
 const getOffer = async (id: string) => {
 	const key = `offers:${id}`;
-
-	// const cache = await getCache(key);
-	// if (cache) {
-	// 	return JSON.parse(cache);
-	// }
+	const cache = await getCache(key);
+	if (cache) {
+		offerCacheHitCounter.inc();
+		return JSON.parse(cache);
+	}
 
 	const db = await getDb();
 
@@ -112,17 +122,19 @@ const getOffer = async (id: string) => {
 		throw new Error("Offer not found");
 	}
 
-	// await setCache({
-	// 	key,
-	// 	value: JSON.stringify(offer),
-	// 	ttl: 300,
-	// });
-
 	offer.relatedOffers = await getRelatedOffers({
 		city: offer.to,
 		departDate: offer.departDate,
 		returnDate: offer.returnDate,
 	});
+
+	await setCache({
+		key,
+		value: JSON.stringify(offer),
+		ttl: 300,
+	});
+
+	offerCacheMissCounter.inc();
 
 	return offer;
 };
@@ -167,6 +179,8 @@ const createOffer = async (input: CreateOfferParams) => {
 	};
 
 	await publish({ channel: "offers:new", message: JSON.stringify(message) });
+
+	return result.insertedId;
 };
 
 export { getOffers, getOffer, getRelatedOffers, createOffer };

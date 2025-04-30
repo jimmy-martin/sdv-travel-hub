@@ -15,6 +15,21 @@ services:
       - mongo
       - redis
 
+  log-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run dev:logs
+    ports:
+      - "4000:4000"
+    environment:
+      - REDIS_URL=redis://redis:6379
+    volumes:
+      - .:/usr/src/app:cached
+      - /usr/src/app/node_modules
+    depends_on:
+      - redis
+
   mongo:
     image: mongo
     ports:
