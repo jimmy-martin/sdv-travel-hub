@@ -1,6 +1,7 @@
 import { serve } from "@hono/node-server";
 import { prometheus } from "@hono/prometheus";
 import { Hono } from "hono";
+import { cors } from "hono/cors";
 import { timing } from "hono/timing";
 import registry from "./metrics/registries/registry.js";
 import customTimingMiddleware from "./middlewares/custom-timing-middleware.js";
@@ -15,6 +16,7 @@ const app = new Hono();
 const { printMetrics, registerMetrics } = prometheus({ registry });
 
 app.use(timing());
+app.use(cors());
 app.use(customTimingMiddleware);
 app.use(forceJsonHeadersMiddleware);
 app.use("*", registerMetrics);

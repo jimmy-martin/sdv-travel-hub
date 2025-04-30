@@ -30,6 +30,17 @@ services:
     depends_on:
       - redis
 
+  frontend:
+    image: node:20
+    working_dir: /app
+    volumes:
+      - ./src/frontend:/app
+    ports:
+      - "5173:5173"
+    command: sh -c "npm install && npx vite --host"
+    depends_on:
+      - api
+
   mongo:
     image: mongo
     ports:
