@@ -69,18 +69,12 @@ Il faut crééer la base de donnée `sdv-travel-hub` et la collection `offers` (
 
 Importer le fichier json qui se trouve dans /docs/offers.json (via MongoDB Compass par exemple)
 
-### 4.3. Créer les indexs
+### 4.3. Créer les indexes
 
-Se rendre au sein du container docker et lancer la commande:
-
-```bash
-npm run create-indexes 
-```
-
-Ou directement depuis le host:
+Directement depuis le host, lancer la commande:
 
 ```bash
-docker exec <nom_du_container_api> npm run create-indexes 
+docker exec travel-hub-api npm run create-indexes 
 ```
 
 ### 4.4. Ajouter des données sur Neo4j
