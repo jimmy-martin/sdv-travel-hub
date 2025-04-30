@@ -1,11 +1,11 @@
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
-import { getLogs, subscribeToOffers } from "./redis.js";
+import { getNewOffersLogs, subscribeToOffers } from "./redis.js";
 
 const app = new Hono();
 
-app.get("/logs", (c) => {
-	return c.json({ logs: getLogs() });
+app.get("/logs/offers-new", (c) => {
+	return c.json({ logs: getNewOffersLogs() });
 });
 
 subscribeToOffers().then(() => {

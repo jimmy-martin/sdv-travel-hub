@@ -15,7 +15,7 @@ type Log = {
 	message: string;
 	content: DeserializedOffer;
 };
-const logs: Log[] = [];
+const newOffersLogs: Log[] = [];
 const MAX_LOGS = 100;
 
 export async function subscribeToOffers() {
@@ -23,16 +23,16 @@ export async function subscribeToOffers() {
 	await sub.connect();
 
 	await sub.subscribe("offers:new", (message) => {
-		logs.unshift({
+		newOffersLogs.unshift({
 			date: new Date(),
 			message,
 			content: JSON.parse(message),
 		});
-		if (logs.length > MAX_LOGS) logs.pop();
+		if (newOffersLogs.length > MAX_LOGS) newOffersLogs.pop();
 		console.log("📨 New offer published:", message);
 	});
 }
 
-export function getLogs() {
-	return logs;
+export function getNewOffersLogs() {
+	return newOffersLogs;
 }
