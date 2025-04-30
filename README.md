@@ -32,10 +32,20 @@ git clone https://github.com/ton-projet/travel-hub.git
 cd travel-hub
 ```
 
-### 2. Lancer avec Docker
+### 2. Remplir les variables d'environnement
+
+Copier le fichier .env.example et le renommer en .env
 
 ```bash
-docker-compose up --build
+cp .env.example .env
+```
+
+Remplir les variables d'environnement avec vos informations
+
+### 3. Lancer avec Docker
+
+```bash
+docker-compose up -d
 ```
 
 Cela lance :
@@ -45,29 +55,44 @@ Cela lance :
 | API          | `3000`   | L'API principale REST        |
 | Logs Server  | `4000`   | Historique Redis Pub/Sub     |
 | MongoDB      | `27017`  | Base de données              |
-| Redis        | `6379`   | Pub/Sub                      |
+| Redis        | `6379`   | Cache / Pub/Sub              |
 
 ---
 
-## 📂 Structure
+### 4. Donnée
+
+#### 4.1. Sur MongoDB, créer la base de donnée et la collection offers
+
+Il faut crééer la base de donnée `sdv-travel-hub` et la collection `offers` (via MongoDB Compass par exemple)
+
+#### 4.2. Ajouter des données MongoDB
+
+Importer le fichier json qui se trouve dans /docs/offers.json (via MongoDB Compass par exemple)
+
+### 4.3. Créer les indexs
+
+Se rendre au sein du container docker et lancer la commande:
 
 ```bash
-src/
-├── api/              # Serveur principal (Hono)
-│   └── index.ts
-├── logs-server/      # Serveur secondaire (logs)
-│   ├── index.ts
-│   └── redis.ts
-├── services/         # Connexions Mongo/Redis/Neo4j
+npm run create-indexes 
 ```
 
----
+Ou directement depuis le host:
+
+```bash
+docker exec <nom_du_container_api> npm run create-indexes 
+```
+
+### 4.4. Ajouter des données sur Neo4j
+
+Copier-coller le contenu du fichier qui se trouve dans /docs/neo4j_script.cypher et l'exécuter via une interface graphique Neo4j ou autre
 
 ## 🧪 Scripts utiles
 
 ```bash
 npm run dev         # Démarre l'API (port 3000)
 npm run dev:logs    # Démarre le serveur de logs (port 4000)
+npm run create-indexes  # Créer les indexs
 ```
 
 ---
