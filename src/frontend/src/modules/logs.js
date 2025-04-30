@@ -27,10 +27,10 @@ const logsModule = {
 		return `<div><strong>${log.date}</strong> - ${log.message}</div>`;
 	},
 
-    async reloadLogs() {
-        const logs = await logsModule.fetch();
-        logsModule.render(logs);
-    }
+	async reloadLogs() {
+		const logs = await logsModule.fetch();
+		logsModule.render(logs);
+	},
 };
 
 export default logsModule;

@@ -12,9 +12,9 @@ const offersModule = {
 		this.addEventListeners();
 	},
 
-    async initDeps() {
-        await logsModule.init()
-    },
+	async initDeps() {
+		await logsModule.init();
+	},
 
 	async fetchAll({ from = "", to = "", limit = "", q = "" }) {
 		const query = new URLSearchParams({ from, to, limit, q }).toString();
@@ -36,7 +36,8 @@ const offersModule = {
                     <div style="border:1px solid #ccc; margin:5px; padding:5px;">
                         <strong>${o.provider}</strong> – ${o.price} ${o.currency} <br/>
                         ${o.legs?.[0]?.dep} → ${o.legs?.[0]?.arr}
-                        <button onclick="loadOfferDetails('${o._id}')">Détail</button>
+                        // <button onclick="loadOfferDetails('${o._id}')">Détail</button>
+                        // redirect to 
                     </div>
                 `,
 			)
