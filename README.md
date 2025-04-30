@@ -55,6 +55,7 @@ Cela lance :
 | Logs Server  | `4000`   | Historique Redis Pub/Sub     |
 | MongoDB      | `27017`  | Base de données              |
 | Redis        | `6379`   | Cache / Pub/Sub              |
+| RedisInsight | `5540`   | Interface web                |
 | Frontend     | `5173`   | Interface web                |
 
 ---
@@ -117,3 +118,4 @@ npm run create-indexes  # Créer les indexs
 ## 📚 Correction
 
 - Toutes les requêtes utilisées (MongoDB, Redis, Neo4j) se trouvent dans les services (`/src/services`)
+- Les clés Redis peuvent être vues sur l'interface web de RedisInsight (`http://localhost:5540`) en choisissant la bonne base de données (`travel-hub`)

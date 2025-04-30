@@ -50,3 +50,16 @@ services:
     image: redis
     ports:
       - "6379:6379"
+
+  redisinsight:
+    image: redis/redisinsight:latest
+    container_name: redisinsight
+    environment:
+      - RI_REDIS_HOST=redis
+      - RI_REDIS_PORT=6379
+      - RI_REDIS_ALIAS=travel-hub
+    ports:
+      - "5540:5540"
+    depends_on:
+      - redis
+
