@@ -122,4 +122,4 @@ npm run create-indexes  # Créer les indexs
 
 ## 📚 Correction
 
-- Toutes les requêtes (MongoDB, Redis, Neo4j) se trouvent dans les services (`/src/services`)
+- Toutes les requêtes utilisées (MongoDB, Redis, Neo4j) se trouvent dans les services (`/src/services`)
