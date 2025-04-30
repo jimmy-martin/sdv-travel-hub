@@ -35,7 +35,7 @@ routes.get("/:id", async (c) => {
 
 	const offer = await getOffer(id);
 
-	if (!offer) {
+	if (offer.error) {
 		return c.json({ error: "Offer not found" }, 404);
 	}
 
