@@ -55,7 +55,7 @@ Cela lance :
 | Logs Server  | `4000`   | Historique Redis Pub/Sub     |
 | MongoDB      | `27017`  | Base de données              |
 | Redis        | `6379`   | Cache / Pub/Sub              |
-| Frontend     | `4000`   | Interface web                |
+| Frontend     | `5173`   | Interface web                |
 
 ---
 
