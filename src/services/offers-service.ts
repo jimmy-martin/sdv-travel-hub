@@ -119,7 +119,17 @@ const getOffer = async (id: string) => {
 		.findOne({ _id: new ObjectId(id) });
 
 	if (!offer) {
-		return null;
+		const notFoundOffer = { error: "Offer not found" };
+
+		await setCache({
+			key,
+			value: JSON.stringify(notFoundOffer),
+			ttl: 300,
+		});
+
+		offerCacheMissCounter.inc();
+
+		return notFoundOffer;
 	}
 
 	offer.relatedOffers = await getRelatedOffers({
