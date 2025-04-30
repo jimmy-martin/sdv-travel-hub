@@ -119,7 +119,7 @@ const getOffer = async (id: string) => {
 		.findOne({ _id: new ObjectId(id) });
 
 	if (!offer) {
-		throw new Error("Offer not found");
+		return null;
 	}
 
 	offer.relatedOffers = await getRelatedOffers({
