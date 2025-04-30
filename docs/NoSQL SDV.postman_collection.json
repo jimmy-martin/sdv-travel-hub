@@ -107,7 +107,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "{{logServerBaseUrl}}/logs"
+				"url": "{{logServerBaseUrl}}/logs/offers-new"
 			},
 			"response": []
 		}
