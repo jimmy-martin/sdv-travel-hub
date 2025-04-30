@@ -55,6 +55,7 @@ Cela lance :
 | Logs Server  | `4000`   | Historique Redis Pub/Sub     |
 | MongoDB      | `27017`  | Base de données              |
 | Redis        | `6379`   | Cache / Pub/Sub              |
+| Frontend     | `4000`   | Interface web                |
 
 ---
 
@@ -118,3 +119,7 @@ npm run create-indexes  # Créer les indexs
 - `GET /logs/offers-new` – messages publiés sur `offers:new` via Redis
 
 ---
+
+## 📚 Correction
+
+- Toutes les requêtes (MongoDB, Redis, Neo4j) se trouvent dans les services (`/src/services`)
