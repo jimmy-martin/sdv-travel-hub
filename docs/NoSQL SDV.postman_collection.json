@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "e7852256-4ed2-40fa-bdc4-1461526778c3",
+		"name": "NoSQL SDV",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "23119199"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": \"u42\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{baseUrl}}/login"
+			},
+			"response": []
+		},
+		{
+			"name": "Create offer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"from\": \"AMS\",\n    \"to\": \"MAD\",\n    \"departDate\": \"2026-04-04T21:19:07.544729\",\n    \"returnDate\": \"2026-04-24T21:19:07.544729\",\n    \"provider\": \"GlobeTrotter\",\n    \"price\": 234.21,\n    \"currency\": \"EUR\",\n    \"legs\": [\n        {\n            \"flightNum\": \"BA592\",\n            \"dep\": \"AMS\",\n            \"arr\": \"MAD\",\n            \"duration\": 840\n        }\n    ],\n    \"hotel\": null,\n    \"activity\": {\n        \"title\": \"City Tour\",\n        \"price\": 168.12\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{baseUrl}}/offers"
+			},
+			"response": []
+		},
+		{
+			"name": "Offers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/offers?from=PAR&to=SYD&limit=1&q=globetrotter",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"offers"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "PAR"
+						},
+						{
+							"key": "to",
+							"value": "SYD"
+						},
+						{
+							"key": "limit",
+							"value": "1"
+						},
+						{
+							"key": "q",
+							"value": "globetrotter"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top destinations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/stats/top-destinations",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"stats",
+						"top-destinations"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "3",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Log server",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{logServerBaseUrl}}/logs"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:3000",
+			"type": "string"
+		},
+		{
+			"key": "logServerBaseUrl",
+			"value": "http://localhost:4000",
+			"type": "string"
+		}
+	]
+}

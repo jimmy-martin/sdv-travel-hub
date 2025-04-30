@@ -6,7 +6,6 @@ Projet complet permettant de gérer des offres de voyages avec :
 - Une **base MongoDB** pour stocker les offres
 - Une **base Redis** pour la publication (Pub/Sub)
 - Un **serveur de logs** abonné à Redis (`offers:new`)
-- Exportation des **metrics Prometheus**
 
 ---
 
@@ -86,6 +85,11 @@ docker exec <nom_du_container_api> npm run create-indexes
 ### 4.4. Ajouter des données sur Neo4j
 
 Copier-coller le contenu du fichier qui se trouve dans /docs/neo4j_script.cypher et l'exécuter via une interface graphique Neo4j ou autre
+
+
+### 5. Postman (optionnel)
+
+Importer le fichier qui se trouve dans /docs/NoSQL SDV.postman_collection.json dans Postman afin de tester les endpoints
 
 ## 🧪 Scripts utiles
 
